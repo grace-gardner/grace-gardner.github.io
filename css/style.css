@@ -1,0 +1,236 @@
+body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+.container{ /*TARGETS *MEASUREMENTS* OF ALL CONTAINERS*/
+    max-width: 1140px;
+    margin-left: auto; /*TO CENTER EVERYTHING INSIDE A BOX, USE MARGIN LEFT AND RIGHT TO AUTO */
+    margin-right: auto;
+    overflow: hidden;
+    
+}
+.big-button{
+    color: white;
+}
+
+
+/*NOTES!!!! # is for targeting the id name and . is for targeting class name*/
+
+
+                    /*SECTION 1*/
+
+#section-1{ 
+    background-color: blueviolet;
+    min-height: 595px;
+}
+header{
+    padding-top: 55px;
+}
+.logo{
+    background: linear-gradient(to left, transparent, #ff3399, #4400ab);
+    box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
+    border-radius: 8px;
+    padding-left: 5px;
+}
+nav{
+    float: right;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{ /*TARGETS THE MENU ITEMS TO DISPLAY SIDE BY SIDE*/
+    display: inline-block;
+    padding: 16px
+    
+    
+}
+nav ul li.active{ /*THIS IS THE HOME BUTTON LINK*/
+    background-color: #643a79;
+    border-radius: 5px;
+}
+nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
+    text-decoration: none;
+    color: white;
+}
+#main-heading-and-cta{ /*TARGETS THE BOX THAT CONTAINS HEADING 1 AND ENQUIRE NOW BUTTON*/
+    margin: 145px;
+    text-align: center;
+}
+#main-heading-and-cta h1{ /*TARGETS THE STYLES FOR HEADING 1: "Stunning Floristry, crafted with love"*/
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+#main-heading-and-cta a{
+    text-decoration: none;
+    background-color: #ff3399;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+                       /*SECTION 2*/
+
+#section-2{ 
+    background-color: white;
+    min-height: 745px;
+}
+.title-box{
+    align-items: center;
+    text-align: center;
+    max-width: 609px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.title-box h2{
+    margin-top: 0;
+    padding-top: 120px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title-box .line{
+    width: 87px;
+    height: 4px;
+    background: linear-gradient(to right,#993366, #ff66ff);
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-box p{
+    font-size: 18px;
+}
+.blurb-row{
+    margin-top: 80px;
+}
+.blurb{
+    width: 23.33%;
+    display: inline-table; /* !!!!IMPORTANT!!! To amke the items line up side by side in equal size without moving on top of each other, use inline-table !!! */
+    justify-content: space-evenly;
+    text-align: center;
+}
+.blurb img{
+    width: 150px;
+    height: 160px;
+    padding-top: 25px;
+    border-color: #ff3399;
+    box-shadow: #993366;
+}
+.blurb h3{
+    font-size: 18px;
+}
+.blurb p{
+    font-size: 16px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*/////////////////////////////// SECTION 3* \\\\\\\\\\\\\\\\\\  */
+
+
+#section-3{ 
+    background-color: blueviolet;
+    min-height: 820px;
+    color: white;
+}
+#contact-form{
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input [type="text"], input [type="email"], textarea{
+    color: white;
+    background-color: #ff66ff;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 25px;
+    margin: 16px;
+    padding-left: 10px;
+}
+input [type="text"]::placeholder, input [type="email"]::placeholder, textarea::placeholder{
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+input{
+    width: 50%;
+    height: 56px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+.form-row{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.form-row button{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*//////////////////////// FOOTER \\\\\\\\\\\\\\\\ */
+
+footer{
+   background-color: white;
+    
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer-links ul li{ /*TARGETS THE SOCIAL MEDIA ICON ITEMS TO DISPLAY SIDE BY SIDE*/
+    display: inline-block;
+    padding: 10px 16px 10px 16px;
+
+    
+    
+}
+.footer-links ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    
+}
+.footer-icons{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.icons{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+i{
+    font-size: 40px;
+}
+
+
