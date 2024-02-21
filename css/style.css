@@ -142,6 +142,7 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     background-color: blueviolet;
     min-height: 820px;
     color: white;
+    padding-bottom: 24px;
 }
 #contact-form{
     max-width: 870px;
@@ -181,7 +182,7 @@ textarea{
     border-radius: 10px;
 }
 .form-row button{
-    width: 100%;
+    width: 50%;
     height: 50px;
     background-color: white;
     border: none;
