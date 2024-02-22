@@ -29,11 +29,12 @@ html{
                     /*SECTION 1*/
 
 #section-1{ 
-    background-color: blueviolet;
+    background-color: whitesmoke;
     min-height: 595px;
 }
 header{
     padding-top: 55px;
+    
 }
 .logo{
     background: linear-gradient(to left, transparent, #ff3399, #4400ab);
@@ -46,6 +47,7 @@ nav{
     display: block;
     justify-content: space-evenly;
     align-items: center;
+
 }
 nav ul li{ /*TARGETS THE MENU ITEMS TO DISPLAY SIDE BY SIDE*/
     display: inline-block;
@@ -54,22 +56,30 @@ nav ul li{ /*TARGETS THE MENU ITEMS TO DISPLAY SIDE BY SIDE*/
     
 }
 nav ul li.active{ /*THIS IS THE HOME BUTTON LINK*/
-    background-color: #643a79;
+    background-color: none;
     border-radius: 5px;
 }
 nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     text-decoration: none;
-    color: white;
+    color: #643a79;
 }
 #main-heading-and-cta{ /*TARGETS THE BOX THAT CONTAINS HEADING 1 AND ENQUIRE NOW BUTTON*/
     margin: 145px;
     text-align: center;
 }
 #main-heading-and-cta h1{ /*TARGETS THE STYLES FOR HEADING 1: "Stunning Floristry, crafted with love"*/
-    color: white;
+    color: linear-gradient(to left, transparent, #ff3399, #4400ab);
     font-size: 42px;
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: ;
+}
+#main-heading-and-cta h2{
+    font-family: 'Dancing script', cursive;
+    font-size: 4rem;
+    color: linear-gradient(to left, transparent, #ff3399, #4400ab);
+    font-weight: lighter;
+    text-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
+    padding-bottom: 50px;
 }
 #main-heading-and-cta a{
     text-decoration: none;
@@ -78,13 +88,14 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     border-radius: 5px;
 }
 
-/* SECTION 1.5*/
+/* /////////// SECTION 1.5 - USING BOOTSRTAP ROWS AND COLUMNS - 3 Images  \\\\\\\\\\\\\\\ */
 #section-1-5{
-    background-color: white;
-    min-height: 745px;
+    background: linear-gradient(to left,#993366, #ff66ff);
+    max-height: 345px;
     width: 100%;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 #section-1-5 img{
     width: 110px;
@@ -92,12 +103,13 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
 
 }
 
-                       /*SECTION 2*/
+/*////////SECTION 2 - USING CSS DISPLAY FLEX: INLINE-TABLE - 4 images \\\\\\\\\ */
 
 #section-2{ 
-    background-color: white;
-    min-height: 745px;
+    background-color: ;
+    max-height: 745px;
 }
+
 .title-box{
     align-items: center;
     text-align: center;
@@ -153,11 +165,14 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
 
 
 #section-3{ 
-    background-color: blueviolet;
-    min-height: 820px;
-    color: white;
-    padding-bottom: 24px;
+    background: linear-gradient(to right,#993366, #ff66ff);
+    max-height: 745px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
+
 #contact-form{
     max-width: 870px;
     margin-left: auto;
@@ -209,6 +224,7 @@ textarea{
 
 footer{
    background-color: white;
+   padding-top: 25px;
     
 }
 
