@@ -4,6 +4,7 @@ body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     margin: 0;
     padding: 0;
     font-family: 'Cinzel', sans-serif;
+    
 }
 html{
     font-size: 62.5%;
@@ -77,6 +78,19 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     border-radius: 5px;
 }
 
+/* SECTION 1.5*/
+#section-1-5{
+    background-color: white;
+    min-height: 745px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+#section-1-5 img{
+    width: 110px;
+    height: 110px;
+
+}
 
                        /*SECTION 2*/
 
