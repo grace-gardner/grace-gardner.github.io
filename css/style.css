@@ -74,17 +74,17 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     color: linear-gradient(to left, transparent, #ff3399, #4400ab);
     font-size: 42px;
     font-weight: bold;
-    margin-bottom: ;
+    background: border-box;
+    box-shadow: 2rem 4rem 6rem rgba(0,0,0,0.9)
 }
 #main-heading-and-cta h2{
     font-family: 'Dancing script', cursive;
     font-size: 4rem;
-    color: linear-gradient(to left, transparent, #ff3399, #4400ab);
-    font-weight: lighter;
+    color: white;
+    font-weight: bold;
     text-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
     padding-bottom: 50px;
-    background: border-box;
-    box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
+   
 }
 #main-heading-and-cta .button{
     height: 120px;
