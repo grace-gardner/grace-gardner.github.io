@@ -63,6 +63,7 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     text-decoration: none;
     color: #643a79;
     font-weight: bold;
+    font-size: 15px;
 }
 #main-heading-and-cta{ /*TARGETS THE BOX THAT CONTAINS HEADING 1 AND ENQUIRE NOW BUTTON*/
     margin: 145px;
@@ -231,10 +232,12 @@ textarea{
 .form-row button{
     width: 50%;
     height: 50px;
-    background-color: white;
-    border: none;
     margin-left: auto;
     margin-right: auto;
+    background: border-box;
+    background-color: cornsilk;
+    font-size: 20px;
+    border-radius: 1px;
 }
 
 
@@ -244,6 +247,11 @@ footer{
    background-color: white;
    padding-top: 25px;
     
+}
+footer h3{
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer-links{
