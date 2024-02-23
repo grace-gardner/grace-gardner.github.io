@@ -21,13 +21,14 @@ html{
 .big-button{
     padding: 25px 90px 25px 90px;
     background: linear-gradient(#993366, #ff66ff);
+    box-shadow: 2rem 4rem 6rem rgba(0,0,0,0.9);
 }
 
 
 /*Section 1 */
 
 #section-1{
-    background-color: none;/*CHANGE THIS!!!!*/
+    background: linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
     min-height: 595px; 
 }
 header{
@@ -124,4 +125,10 @@ nav ul li a{
     width: 120px;
     height: 120px;
 }
+/*End of Section-2*/
 
+/*SECTION-3*/
+#section-3{
+    background: linear-gradient(to right,#993366, #ff66ff);
+    min-height: 820px;
+}
