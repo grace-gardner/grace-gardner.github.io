@@ -28,10 +28,11 @@ html{
 /*Section 1 */
 
 #section-1{
-    background: linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
+    background: /*linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
     min-height: 595px; 
 }
 header{
+    background: linear-gradient(to right,#993366, #ff66ff);
     padding-top: 55px;
 }
 nav{
