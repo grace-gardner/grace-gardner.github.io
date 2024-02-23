@@ -62,11 +62,13 @@ nav ul li.active{ /*THIS IS THE HOME BUTTON LINK*/
 nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     text-decoration: none;
     color: #643a79;
+    font-weight: bold;
 }
 #main-heading-and-cta{ /*TARGETS THE BOX THAT CONTAINS HEADING 1 AND ENQUIRE NOW BUTTON*/
     margin: 145px;
     text-align: center;
-    background-image: url(../img/flowers.mp4);
+    justify-content: center;
+    
 }
 #main-heading-and-cta h1{ /*TARGETS THE STYLES FOR HEADING 1: "Stunning Floristry, crafted with love"*/
     color: linear-gradient(to left, transparent, #ff3399, #4400ab);
