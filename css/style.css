@@ -102,6 +102,8 @@ nav ul li a{
     background: linear-gradient(to right,#993366, #ff66ff);
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
+    margin-bottom: 25px;
 }
 .title-box p{
     padding-bottom: 25px;
