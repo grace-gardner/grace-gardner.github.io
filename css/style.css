@@ -18,3 +18,102 @@ html{
     overflow: hidden;
     
 }
+.big-button{
+    padding: 25px 90px 25px 90px;
+    background: linear-gradient(#993366, #ff66ff);
+}
+
+
+/*Section 1 */
+
+#section-1{
+    background-color: pink;/*CHANGE THIS!!!!*/
+    min-height: 595px; 
+}
+header{
+    padding-top: 55px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#main-heading-and-cta{
+    margin-top: 145px;
+    text-align: center;
+}
+#main-heading-and-cta h1{
+    color: black;
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+#main-heading-and-cta h2{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 60px;
+
+}
+#main-heading-and-cta a{
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 18px;
+    padding-bottom: 35px;
+}
+#main-heading-and-cta video{
+    padding-top: 25px;
+    max-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/*End of Section-1*/
+
+
+
+/*SECTION-2*/
+
+#section-2{
+    background-color: white;
+    min-height: 745px;
+}
+.title-box{
+    text-align: center;
+    max-width: 609px; /*WHEN THERE IS A FIXED WIDTH, ELEMENTS INSIDE CAN BE CENTERED BY USING MARGIN-LEFT AND MARGIN-RIGHT:AUTO*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-box h2{
+    margin-top: 0;
+    padding-top: 120px;
+}
+.title-box .line{
+    width: 87px;
+    height: 4px;
+    background: linear-gradient(to right,#993366, #ff66ff);
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-box p{
+    padding-bottom: 25px;
+}
+.blurb{
+    width: 23.33%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.blurb img{
+    padding-top: 1;
+    vertical-align: middle;
+    border-style: none;
+    width: 120px;
+    height: 120px;
+}
+
