@@ -155,6 +155,9 @@ nav ul li a{
 footer{
     min-height: 620px;
 }
+footer h3{
+    padding-top: 15px;
+}
 .blurb i{
     font-size: 22px;
 }
