@@ -132,3 +132,56 @@ nav ul li a{
     background: linear-gradient(to right,#993366, #ff66ff);
     min-height: 820px;
 }
+#section-3 img{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section-3 i{
+    padding-top: 25px;
+    font-size: 50px;
+    max-width: 745px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#section-3 p{
+    font-size: 20px;
+}
+/*End of Section-3*/
+
+/*FOOTER*/
+footer{
+    min-height: 620px;
+}
+.blurb i{
+    font-size: 22px;
+}
+#contact-form{
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to right,#993366, #ff66ff);
+    margin-top: 50px;
+}
+.form-row{
+    margin-top: 25px;
+}
+input[type="text"], input[type="email"]{
+    width: 50%;
+    height: 56px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+textarea{
+    height: 200px;
+    width: 100%;
+}
+.button{
+    max-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
