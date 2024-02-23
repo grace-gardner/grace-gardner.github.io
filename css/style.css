@@ -27,7 +27,7 @@ html{
 /*Section 1 */
 
 #section-1{
-    background-color: pink;/*CHANGE THIS!!!!*/
+    background-color: none;/*CHANGE THIS!!!!*/
     min-height: 595px; 
 }
 header{
@@ -42,21 +42,25 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: blue;
+    font-size: 18px;
 }
 #main-heading-and-cta{
     margin-top: 145px;
     text-align: center;
+    
 }
 #main-heading-and-cta h1{
     color: black;
     font-size: 42px;
     font-weight: bold;
+    box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
     
 }
 #main-heading-and-cta h2{
-    color: black;
+    color: white;
     font-size: 22px;
+    font-family: 'Dancing script';
     margin-bottom: 60px;
 
 }
