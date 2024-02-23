@@ -110,11 +110,7 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#section-1-5 img{
-    width: 110px;
-    height: 110px;
 
-}
 .video{
     width: 100%
 
@@ -123,7 +119,6 @@ nav ul li a{ /*TARGETS THE MENU ITEMS WITH CHOSEN STYLE*/
 /*////////SECTION 2 - USING CSS DISPLAY FLEX: INLINE-TABLE - 4 images \\\\\\\\\ */
 
 #section-2{ 
-    background-color: ;
     max-height: 745px;
 }
 
