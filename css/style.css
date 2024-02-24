@@ -97,7 +97,7 @@ nav ul li a{
 
 #section-2{
     background-color: white;
-    min-height: 745px;
+    min-height: 620px;
 }
 .title-box{
     text-align: center;
@@ -107,7 +107,7 @@ nav ul li a{
 }
 .title-box h2{
     margin-top: 0;
-    padding-top: 120px;
+    padding-top: 20px;
 }
 .title-box .line{
     width: 87px;
@@ -125,7 +125,7 @@ nav ul li a{
 }
 .blurb{
     width: 23.33%;
-    display: inline-table; /*inline-table to display items side by side*/
+    display: block; /*inline-table to display items side by side*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -135,20 +135,21 @@ nav ul li a{
     vertical-align: middle;
     border-style: none;
     width: 120px;
-    height: 120px;
+    height: 240px;
 }
 /*End of Section-2*/
 
 /*SECTION-3*/
 #section-3{
     background: linear-gradient(to right,#993366, #ff66ff);
-    min-height: 820px;
+    max-height: 565px;
 }
 #section-3 img{
     width: 120px;
     height: 120px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 25px;
 }
 #section-3 i{
     padding-top: 25px;
