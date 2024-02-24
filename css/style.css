@@ -28,12 +28,23 @@ html{
 /*Section 1 */
 
 #section-1{
-    background: /*linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
-    min-height: 595px; 
+    background: ;/*linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
+    min-height: 595px;
+     
 }
 header{
     background: linear-gradient(to right,#993366, #ff66ff);
     padding-top: 55px;
+    border-radius: 5px;
+}
+header img{
+    vertical-align: middle;
+    border-style: none;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border: 5px; 
+    box-shadow: 2rem 2rem 2rem rgba(0,0,0,0.9);
+    border-radius: 10px;
 }
 nav{
     float: right;
@@ -114,7 +125,7 @@ nav ul li a{
 }
 .blurb{
     width: 23.33%;
-    display: inline-table;
+    display: inline-table; /*inline-table to display items side by side*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -158,6 +169,9 @@ footer{
 }
 footer h3{
     padding-top: 15px;
+}
+footer p{
+    font-size: 18px;
 }
 .blurb i{
     font-size: 22px;
