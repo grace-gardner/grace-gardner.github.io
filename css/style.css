@@ -11,6 +11,15 @@ html{
     font-size: 62.5%;
 }
 
+/*Responsive*/
+
+@media (max-width: 240px){
+    nav{
+        display: none;
+    }
+
+}
+
 
 .container{ /*TARGETS *MEASUREMENTS* OF ALL CONTAINERS*/
     max-width: 1140px;
@@ -41,7 +50,7 @@ header{
 }
 header img{
     vertical-align: middle;
-    padding-left: 15px;
+    padding-left: 25px;
     padding-bottom: 15px;
     height: 90px;
 }
@@ -143,7 +152,8 @@ nav ul li a{
 /*SECTION-3*/
 #section-3{
     max-height: 745px;
-    margin-top: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 #section-3 img{
     width: 120px;
@@ -209,3 +219,6 @@ textarea{
     margin-right: auto;
     
 }
+
+
+
