@@ -47,6 +47,9 @@ header{
     background: white;
     padding-top: 55px;
     border-radius: 5px;
+    max-width: 545px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header img{
     vertical-align: middle;
