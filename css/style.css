@@ -5,6 +5,7 @@ body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     padding: 0;
     font-family: 'Cinzel', sans-serif;
     
+    
 }
 html{
     font-size: 62.5%;
@@ -29,22 +30,20 @@ html{
 
 #section-1{
     background: ;/*linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
-    min-height: 595px;
+    height: 345px;
+   
      
 }
 header{
-    background: linear-gradient(to right,#993366, #ff66ff);
+    background: white;
     padding-top: 55px;
     border-radius: 5px;
 }
 header img{
     vertical-align: middle;
-    border-style: none;
     padding-left: 15px;
     padding-bottom: 15px;
-    border: 5px; 
-    box-shadow: 2rem 2rem 2rem rgba(0,0,0,0.9);
-    border-radius: 10px;
+    height: 90px;
 }
 nav{
     float: right;
@@ -64,10 +63,11 @@ nav ul li a{
     
 }
 #main-heading-and-cta h1{
-    color: black;
+    color: rgb(255, 179, 255);
     font-size: 42px;
     font-weight: bold;
-    box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);
+    padding-bottom: 50px;
+    /*box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);*/
     
 }
 #main-heading-and-cta h2{
@@ -98,6 +98,7 @@ nav ul li a{
 #section-2{
     background-color: white;
     min-height: 120px;
+    margin-top: 220px;
 }
 .title-box{
     text-align: center;
@@ -141,8 +142,8 @@ nav ul li a{
 
 /*SECTION-3*/
 #section-3{
-    background: linear-gradient(to right,#993366, #ff66ff);
-    max-height: 565px;
+    max-height: 745px;
+    margin-top: 100px;
 }
 #section-3 img{
     width: 120px;
@@ -167,6 +168,7 @@ nav ul li a{
 /*FOOTER*/
 footer{
     min-height: 620px;
+    margin-top: 100px;
 }
 footer h3{
     padding-top: 15px;

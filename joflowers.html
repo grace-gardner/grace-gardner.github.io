@@ -17,10 +17,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <style>
-        #main-heading-and-cta{
+        #main-heading-and-cta h1{
             position: relative;
             animation-name: example;
-            animation-duration: 5s;
+            animation-duration: 2s;
             animation-delay: -1s;
         }
         @keyframes example{
@@ -32,14 +32,14 @@
         } /*DO NOT CHANGE THIS - THIS IS THE ANIMATION FOR THE HEADING AND VIDEO*/
         #about {
             width: 150px;
-            height: 100px;
+            height: 150px;
             background: palevioletred; opacity: 0.9;
             transition: width 2s, height 4s;
         }
 
         #about:hover {
             width: 100%;
-            height: 550px;
+            height: 745px;
         }
         
        
@@ -53,7 +53,7 @@
     <section id="section-1">
         <div class="container">
             <header>
-                <img class="logo" src="img/logo.png" alt="">
+                <img class="logo" src="img/logo3.png" alt="">
                 <nav>
                     <ul>
                         <li class="active"><a href="#">Test</a></li>
@@ -64,18 +64,20 @@
                 </nav>
             </header>
             <div id="main-heading-and-cta">
-                <h1>Stunning Floristry</h1>
-                <h2>crafted with love</h2>
-                <a href="#" class="big-button">Enquire Now</a>
-                <video autoplay muted loop> <!--IMPORTANT!!!! Must be autoplay muted so autoplay works-->
-                    <source src="img/flowers.mp4" type="video/mp4">
-                    <source src="img/flowers.mp4" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-
+                <h1>Jo Owens Flowers</h1>
             </div>
         </div>
     </section> <!--END OF SECTION 1-->
+
+    <section id="section-1">
+        <div class="container">
+            <video autoplay muted loop height="420px" width="100%" style="padding-top: 50px;"> <!--IMPORTANT!!!! Must be autoplay muted so autoplay works-->
+                <source src="img/introvid2.mp4" type="video/mp4">
+                <source src="img/flowers.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
 
     <section id="section-2">
         <div class="container">
@@ -94,6 +96,7 @@
             <div class="title-box">
             <div class="row">
                 <div class="col-6">
+                    <h3>Gifts</h3>
                     <a href="https://www.facebook.com/reel/5948180791885472" target=""><video autoplay muted loop style="height: 240px;"> <!--IMPORTANT!!!! Must be autoplay muted so autoplay works-->
                         <source src="img/animated1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -101,6 +104,7 @@
                 </div>
 
                 <div class="col-6">
+                    <h3>Weddings</h3>
                     <a href="https://www.facebook.com/watch/?v=926486384358833" target=""><video autoplay muted loop style="height: 240px;"> <!--IMPORTANT!!!! Must be autoplay muted so autoplay works-->
                         <source src="img/animated5.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -118,6 +122,7 @@
             <div class="title-box">
             <div class="row">
                 <div class="col-6">
+                    <h3>Tributes</h3>
                     <a href="https://www.facebook.com/josflowersstaines/videos/this-weeks-tributesif-u-need-any-bouquets-i-will-have-fresh-on-thursday-place-ur/2166189013681327" target=""><video autoplay muted loop style="height: 240px;"> <!--IMPORTANT!!!! Must be autoplay muted so autoplay works-->
                         <source src="img/animated3.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -125,6 +130,7 @@
                 </div>
 
                 <div class="col-6">
+                    <h3>Seasonal</h3>
                     <a href="https://www.facebook.com/watch/?v=744644453571640" target=""><video autoplay muted loop style="height: 240px;"> <!--IMPORTANT!!!! Must be autoplay muted so autoplay works-->
                         <source src="img/animated4.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -142,14 +148,16 @@
     <section id="section-3">
         <div id="about" class="container">
             <div class="title-box">
-                <h2>About Us</h2>
+                <h2>Get To Know US</h2>
                 <div class="line"></div>
+                <p>click here</p>
                 <div class="title-box">
                     <img src="img/familyphoto.jpg" alt="">
                     <p>We are a small family business operating and serving in and around Staines area. Specialising in funeral and wedding work but offer everything in between. Happy to beat any written local florist quote as have no overheads. We offer free delivery within a one mile radius of Staines.</p>
                     <div class="title-box">
-                        <i class="fa-solid fa-map-location-dot"></i>
-                        <p>Staines-Upon-Thames</p>
+                        <!--<i class="fa-solid fa-map-location-dot"></i>-->
+                        <!--<p>Staines-Upon-Thames</p>-->
+                        <a href="#" class="" style="text-decoration: none; font-size: 22px; color: white; padding-top: 50px;">Enquire Now</a>
                     </div>
                 </div>
                 <!--<p>We are a small family business operating and serving in and around Staines area. We offer free delivery within a one mile radius of Staines</p>-->
