@@ -59,6 +59,7 @@ header img{
 }
 nav{
     float: right;
+    padding-top: 18px;
 }
 nav ul li{
     display: inline-block;
