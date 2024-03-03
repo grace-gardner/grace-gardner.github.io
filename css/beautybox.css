@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*THESE WILL MAKE SURE THAT THE BROWSER WILL NOT APPLY PADDINGS AND MARGINS AUTOMATICALLY TO EVERYTHING IN THE HTML BODY*/
+
+html{
+    font-size: 12pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}/*THESE WILL MAKE SURE THAT THERE IS BACK-UP FONT DEPENDING ON THE BROWSER BEING USED IN CASE THE PREFERED FONT IS NOT AVAILABLE ON A BROWSER*/
+
+
+/*START STYLING*/
+
+body{
+    background-color: white; /*//////////CHANGE THIS TO YOUR PREFERED COLOR\\\\\\\\*/
+}
+
+
+/*START OF STYLE*/
+
+/*SECTION 1 - THE NAVIGATION*/
+:root{
+    --color-1: white;
+    --text-color:#bf8040;
+    --accent-color: #006aff;
+}
+
+
+
+
+
+nav{
+    height: 60px;
+    background-color: var(--color-1);
+    display: flex;                  
+    justify-content: flex-end;    /*///////// FLEX END TO FIX THE NAV BAR TO THE RIGHT, FLEX START TO FIX IT TO THE RIGHT AND FLEX CENTER TO FIX IT IN THE CENTER. THIS WILL NEED TO CHANGE TO FLEX START TO FIX IT TO THE LEFT WHEN THE SCREEN SIZE GETS SMALLER - SEE @MEDIA QUERIES BELOW\\*/
+    align-items: center;
+}
+
+.links-container{
+    height: 100%;
+    width: 100%;
+    display: flex; /*THIS WILL NEED TO CHANGE TO NONE OR COMPLETELY REMOVED IN THE MEDIA QUERIES WHEN THE SCREEN GETS SMALLER SO IT DOESN'T SHOW THE LINK ITEMS*/
+    flex-direction: row; /*\\\\TO ALIGN ALL LINKS SIDE BY SIDE...THIS WILL NEED TO CHANGE TO COLUMN WHEN THE SCREEN SIZE IS SMALLER SO THAT THE LINKS ARE LISTED DOWN INSTEAD - SEE @MEDIA QUERIES BELOW\\*/
+    align-items: center; /*THIS WILL NEED TO CHANGE TO FLEX-START WHEN THE SCREEN SIZE GETS SMALLER SO THAT THE LINKS WILL FLOAT TO THE RIGHT . SEE MEDIA QUERIES BELOW*/
+    position: ; /*THIS WILL NEED TO BE IN FIXED POSITION WHEN THE SCREEN SIZE GETS SMALLER SO THAT IT STICKS TO THE TOP OF THE SCREEN*/
+    top: ; /* THIS WILL NEED TO HAVE A VALUE OF ZERO WHEN THE SCREEN GETS SMALLER */
+    right: ; /*THIS WILL NEED TO HAVE A VALUE OF -100% WHEN THE SCREEN GETS SMALLER SO IT DOESN'T SHOW ON THE EDGE OF THE SCROLL BAR*/
+    z-index: ; /*THIS WILL NEED TO HAVE A VALUE OF 10 SO THAT IT DISPLAYS ON TOP OF THE MAIN BODY.*/
+    width: ; /*AT FULL SCREEN, IT DOESN'T NEED A WIDTH RESTRICTION SO IT OCCUPIES THE WHOLE OF THE TOP SCREEN AND THE LINKS ARE LISTED SIDE BY SIDE. WHEN THE SCREEN GETS SMALLER, THIS WILL NEED TO HAVE A VALUE DEPENDING ON THE SCREEN SIZE. DIFFERENT MEDIA QUERIES MAY BE NEEDED TO APPLY DIFFERENT WIDTHS*/
+    background-color: ; /*THIS WILL NEED TO HAVE A VALUE SO WHEN THE SIDE BAR OPENS*/
+    box-shadow: ; /*NEEDS A VALUE SO THE BOX LOOKS MORE VISIBLE*/
+    transition: ; /*NEEDS A VALUE SO WHEN THE HAMBURGER AND X ICONS ARE CLICKED, THE TRANSITION WILL BE SMOOTH*/
+
+
+
+}
+
+nav a{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover{
+    background-color: var(--accent-color); /*//////// CHANGE THE HOVER EFFECT LATER \\\\\*/
+}
+
+nav .home-link{     /*////////////// THIS IS TO MAKE THE HOME LINK STICK TO THE RIGHT OF THE PAGE \\\\\\\\\*/
+    margin-right: auto;
+}
+
+nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED FROM GOOGLE FONTS.COM\\\\\\\\*/
+    fill: var(--text-color);
+}
+
+#sidebar-active{ /*THIS IS FOR THE <INPUT> CHECKBOX*/
+    display: none; /*THIS IS TO MAKE IT OUT OF SIGHT WHEN THE SCREEN IS AT FULL SIZE. THIS WILL NEED TO CHANGE WHEN THE SCREEN SIZE GETS SMALLER. IT WILL NEED THE PSUEDO CLASS SIDEBAR-ACTIVE:"CHECKED", MEANING WHEN THE SCREEN REACHES THE SCREEN SIZE IN THE MEDIA QUERY, THE HAMBURGER (WHICH IS THE .OPEN-SIDEBAR-BUTTON AND THE X (WHICH IS THE .CLOSE-SIDEBAR-BUTTON WILL APPEAR ON THE SCREEN AS SHOWN BELOW*/
+
+    /*      #sidebar-active:*checked* ~ .links-container{
+                right: 0;
+            }
+            #sidebar-active:*checked* ~ #overlay{ 
+                background: #006aff;
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 5; 
+            } */
+}
+
+.open-sidebar-button, .close-sidebar-button{ /*\\\\\THESE ARE THE SVG HAMBURGER AND X ICONS DOWNLOADED FROM GOOGLE FONTS.COM, THEY ARE INSIDE THE <LABEL> TAG \\\*/
+    padding: 0 20px;
+    display: none; /*\\\\THEY DO NOT NEED TO BE DISPLAYED WHEN THE SCREEN IS AT FULL SIZE. THIS WILL NEED TO CHANGE TO DISPLAY: BLOCK WHEN THE SCREEN SIZE GETS SMALLER:
+    .open-sidebar-button, .close-sidebar-button{ 
+        padding: 20px;
+        display: block;
+    }*/
+}
+
+@media (max-width: 450px) {
+    .links-container{
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%; 
+        z-index: 10;
+        width: 300px;
+        background-color: var(--color-1);
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 0.75s ease-out;
+
+
+    }
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+
+
+    }
+    .open-sidebar-button, .close-sidebar-button{ /*THESE ARE THE SVG HAMBURGER AND X  ICONS FROM GOOGLEFONTS.COM. THEY ARE INSIDE THE TAG <LABEL>*/
+        padding: 20px;
+        display: block;
+    }
+    #sidebar-active:checked ~ .links-container{
+        right: 0;
+
+    }
+    #sidebar-active:checked ~ #overlay{ /*/////////WHEN THE SIDEBAR IS OPEN, THIS WILL SIT ON TOP OF THE SCREEN. THIS IS THE COLORED BLANK SPACE WHEN THE BURGER ICON IS CLICKED\\\\*/
+        background: white; /*////////CHANGE THE COLOR LATER\\\\\*/
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9; /*//////HAS TO BE LESS THAN THE Z-INDEX PF THE LINKS CONTAINER SO THE SPACE IN THE BACKGROUND WILL DISPLAY\\\\\*/
+    }
+
+}  
+    
+@media (max-width: 310px) {
+    .links-container{
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%; 
+        z-index: 10;
+        width: 200px;
+        background-color: var(--color-1);
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 0.75s ease-out;
+    }
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+    .open-sidebar-button, .close-sidebar-button{
+        padding: 20px;
+        display: block;
+}
+    #sidebar-active:checked ~ .links-container{
+        right: 0;
+
+}
+    #sidebar-active:checked ~ #overlay{ /*/////////WHEN THE SIDEBAR IS CLICKED, THIS WILL SIT ON TOP OF THE SCREEN \\\\*/
+        background: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5; /*//////HAS TO BE LESS THAN THE Z-INDEX OF THE LINKS CONTAINER SO THE SPACE IN THE BACKGROUND WILL DISPLAY\\\\\*/
+
+
+}
+
+    
+}
+
+@media (max-width: 200px) {
+    .links-container{
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%; 
+        z-index: 10;
+        width: 100px;
+        background-color: var(--color-1);
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 0.75s ease-out;
+
+
+    }
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+
+
+    }
+    .open-sidebar-button, .close-sidebar-button{
+        padding: 20px;
+        display: block;
+}
+    #sidebar-active:checked ~ .links-container{
+        right: 0;
+
+}
+    #sidebar-active:checked ~ #overlay{ /*/////////WHEN THE SIDEBAR IS CLICKED, THIS WILL SIT ON TOP OF THE SCREEN AS BLANK SPACE SO WHEN YOU CLICK INSIDE THIS SPACE, IT WILL CLOSE THE SIDE BAR MENU\\\\*/
+        background: #006aff;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5; /*//////HAS TO BE LESS THAN THE Z-INDEX PF THE LINKS CONTAINER SO THE SPACE IN THE BACKGROUND WILL DISPLAY\\\\\*/
+
+
+}
+
+    
+}  /*END OF SECTION 1 -NAVIGATION*/
+
+
+/*SECTION 2 - HEADER*/
+
+#slider{
+    overflow: hidden;
+    min-height: 745px;
+    }
+    #slider figure{
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 13s slider infinite;
+    }
+    #slider figure img{
+        float: left;
+        width: 20%;
+    }
+    @keyframes slider{
+        0%{
+            left: 0;
+        }
+        20%{
+            left: 0;
+        }
+        25%{
+            left: -100%;
+        }
+        45%{
+            left: -100%;
+        }
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        90%{
+            left: -300%;
+        }
+        95%{
+            left: -400%;
+        }
+        100%{
+            left: -400%;
+        }
+    }
+    
+    .section-title{
+        text-align: center;
+        max-width: 609px; /*WHEN THERE IS A FIXED WIDTH, ELEMENTS INSIDE CAN BE CENTERED BY USING MARGIN-LEFT AND MARGIN-RIGHT:AUTO*/
+        margin-left: auto;
+        margin-right: auto;
+    }
