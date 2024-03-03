@@ -15,7 +15,10 @@ html{
 body{
     background-color: white; /*//////////CHANGE THIS TO YOUR PREFERED COLOR\\\\\\\\*/
 }
-
+p{
+    font-family: 'Cinzel';
+    font-size: 8px;
+}
 
 /*START OF STYLE*/
 
@@ -288,6 +291,8 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
             left: -400%;
         }
     }
+
+    /*SECTION 3 - WELCOME SECTION/INTRODUCTION*/
     
     .section-title{
         text-align: center;
