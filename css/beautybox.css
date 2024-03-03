@@ -298,3 +298,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     .section-title h1{
         font-family: 'Cinzel';
     }
+    .section-title p{
+        font-family: 'Cinzel';
+        font-size: 8px;
+    }
