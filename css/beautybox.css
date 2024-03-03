@@ -291,7 +291,10 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     
     .section-title{
         text-align: center;
-        max-width: 609px; /*WHEN THERE IS A FIXED WIDTH, ELEMENTS INSIDE CAN BE CENTERED BY USING MARGIN-LEFT AND MARGIN-RIGHT:AUTO*/
+        max-width: 1140px; /*WHEN THERE IS A FIXED WIDTH, ELEMENTS INSIDE CAN BE CENTERED BY USING MARGIN-LEFT AND MARGIN-RIGHT:AUTO*/
         margin-left: auto;
         margin-right: auto;
+    }
+    .section-title h1{
+        font-family: 'Cinzel';
     }
