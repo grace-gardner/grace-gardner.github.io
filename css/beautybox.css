@@ -322,6 +322,8 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     .section-title p{
         font-family: 'Cinzel';
         font-size: 8px;
+        text-align: center;
+        padding: 5px 10px 5px 10px;
     } /*END OF WELCOME SECTION*/
 
     /*SECTION 4 - SERVICES*/
