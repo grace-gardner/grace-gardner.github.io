@@ -31,7 +31,15 @@ p{
 
 
 
-
+.container{
+    max-width: 1140px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 nav{
     height: 60px;
@@ -293,8 +301,15 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     }
 
     /*SECTION 3 - WELCOME SECTION/INTRODUCTION*/
+
+    #welcome{
+        height: 150px;
+        margin-bottom: 50px;
+    }
     
     .section-title{
+        margin-top: 50px;
+        margin-bottom: 50px;
         text-align: center;
         max-width: 1140px; /*WHEN THERE IS A FIXED WIDTH, ELEMENTS INSIDE CAN BE CENTERED BY USING MARGIN-LEFT AND MARGIN-RIGHT:AUTO*/
         margin-left: auto;
@@ -310,5 +325,21 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     } /*END OF WELCOME SECTION*/
 
     /*SECTION 4 - SERVICES*/
+
+    #services{
+        background-color: bisque;
+    }
+
+    .container img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+    .container p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-right: 5px;
+    }
 
 
