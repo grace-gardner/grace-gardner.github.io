@@ -256,7 +256,8 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
 
 #slider{
     overflow: hidden;
-    min-height: 745px;
+    /*min-height: 745px;*/
+    height: 100vh;
     }
     #slider figure{
         position: relative;
@@ -306,7 +307,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 3 - WELCOME SECTION/INTRODUCTION*/
 
     #welcome{
-        height: auto;
+        height: 100vh;
         margin-bottom: 50px;
         background-color: ;
         
