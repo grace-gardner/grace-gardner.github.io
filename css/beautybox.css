@@ -309,7 +309,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 3 - WELCOME SECTION/INTRODUCTION*/
 
     #welcome{
-        height: 50vh;
+        height: 300px;
         margin-bottom: 50px;
         background-image: url(../img/palmbg.);
         background-repeat: no-repeat;
@@ -329,7 +329,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         margin-right: auto;
         animation: fade-in linear;
         animation-timeline: view();
-        animation-range-start: 10px;
+        animation-range-start: 100px;
         animation-range-end: 700px;
         
     }
@@ -351,7 +351,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
 
     @keyframes fade-in{
         from {scale: .8; opacity: 0;}
-        to {scale: 1; opacity: 1;}
+        to {scale: 1; opacity: 2;}
     }
 
 
@@ -372,12 +372,22 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     #services{
         background-image: url(../img/);
         background-color: ;
-        height: 50vh;
+        height: 545px;
         padding-bottom: 20px;
     }
     .section-title h2{
         font-family: 'Cinzel';
         color: #BF8040;
+        text-shadow: 7rem 4rem 6rem rgba(0,0,0,1);
+        animation: fade-in linear;
+        animation-timeline: view();
+        animation-range-start: 100px;
+        animation-range-end: 700px;
+    }
+
+    @keyframes fade-in{
+        from {scale: .8; opacity: 0;}
+        to {scale: 1; opacity: 2;}
     }
 
     .container img{
@@ -451,6 +461,20 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     }
 
     /*END OF PRICELIST*/
+
+
+    /*SECTION 6 - CONTACT US*/
+
+    #contact{
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #contact img{
+        width: 100%;
+        height: auto;
+    }
    
    
 
