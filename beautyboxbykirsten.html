@@ -64,7 +64,7 @@
     nav{
         height: 60px;
         overflow: hidden;
-        background-color: cornsilk;
+        background-color: ;
         display: flex;                  
         justify-content: flex-end;    /*///////// FLEX END TO FIX THE NAV BAR TO THE RIGHT, FLEX START TO FIX IT TO THE RIGHT AND FLEX CENTER TO FIX IT IN THE CENTER. THIS WILL NEED TO CHANGE TO FLEX START TO FIX IT TO THE LEFT WHEN THE SCREEN SIZE GETS SMALLER - SEE @MEDIA QUERIES BELOW\\*/
         align-items: center;
@@ -81,7 +81,7 @@
         right: ; /*THIS WILL NEED TO HAVE A VALUE OF -100% WHEN THE SCREEN GETS SMALLER SO IT DOESN'T SHOW ON THE EDGE OF THE SCROLL BAR*/
         z-index: ; /*THIS WILL NEED TO HAVE A VALUE OF 10 SO THAT IT DISPLAYS ON TOP OF THE MAIN BODY.*/
         width: ; /*AT FULL SCREEN, IT DOESN'T NEED A WIDTH RESTRICTION SO IT OCCUPIES THE WHOLE OF THE TOP SCREEN AND THE LINKS ARE LISTED SIDE BY SIDE. WHEN THE SCREEN GETS SMALLER, THIS WILL NEED TO HAVE A VALUE DEPENDING ON THE SCREEN SIZE. DIFFERENT MEDIA QUERIES MAY BE NEEDED TO APPLY DIFFERENT WIDTHS*/
-        background-color: cornsilk ; /*THIS WILL NEED TO HAVE A VALUE SO WHEN THE SIDE BAR OPENS*/
+        background-color: ; /*THIS WILL NEED TO HAVE A VALUE SO WHEN THE SIDE BAR OPENS*/
         box-shadow: ; /*NEEDS A VALUE SO THE BOX LOOKS MORE VISIBLE*/
         transition: ; /*NEEDS A VALUE SO WHEN THE HAMBURGER AND X ICONS ARE CLICKED, THE TRANSITION WILL BE SMOOTH*/
 
@@ -352,12 +352,13 @@
             <a href="#">About</a>
             <a href="#">Products</a>
             <a href="#">Services</a>
-            <a href="#">Contact Us</a>
+            <a href="#">Contact</a>
         </div>
     </nav>
     
     <!--SLIDER SECTION-->
     <div id="slider">
+        
         <figure>
             <img src="img/Kirsten1.png" alt="image5">
             <img src="img/Eyebrows.png" alt="image2">
@@ -380,6 +381,9 @@
 
     <!--SECTION 2 - SERVICES-->
     <section id="services">
+        <div class="section-title">
+            <h2>Our Services</h2>
+        </div>
         <div class="container">
             <img src="img/Eyelashes.png" alt="" style="height: auto; width: 120px;">
             <p>This is a sample paragraph. <br> Here you can list all treatments or services offered for this specific category. </p>
@@ -399,19 +403,6 @@
     <!--SECTION 3 - PRICELIST-->
     <section id="pricelist">
         <img src="img/pricelist.png" alt="">
-       
-            <div class="section-title">
-                
-
-            </div>
-
-       
-        
-          
-            
-            
-        
-
     </section>
     
 

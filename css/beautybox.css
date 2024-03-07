@@ -14,7 +14,7 @@ html{
 /*START STYLING*/
 
 body{
-    background-color: cornsilk;
+    background-color: ;
 
 }
 p{
@@ -45,7 +45,7 @@ p{
 
 nav{
     height: 60px;
-    background-color:var(--color-1);
+    background-color:; /*var(--color-1)*/
     display: flex;                  
     justify-content: flex-end;    /*///////// FLEX END TO FIX THE NAV BAR TO THE RIGHT, FLEX START TO FIX IT TO THE RIGHT AND FLEX CENTER TO FIX IT IN THE CENTER. THIS WILL NEED TO CHANGE TO FLEX START TO FIX IT TO THE LEFT WHEN THE SCREEN SIZE GETS SMALLER - SEE @MEDIA QUERIES BELOW\\*/
     align-items: center;
@@ -126,7 +126,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         right: -100%; 
         z-index: 10;
         width: 300px;
-        background-color: var(--color-1);
+        background-color: ; /*var(--color-1)*/
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: 0.75s ease-out;
 
@@ -170,7 +170,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         right: -100%; 
         z-index: 10;
         width: 200px;
-        background-color: var(--color-1);
+        background-color: ; /*var(--color-1)*/
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: 0.75s ease-out;
     }
@@ -213,7 +213,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         right: -100%; 
         z-index: 10;
         width: 100px;
-        background-color: var(--color-1);
+        background-color: ; /*var(--color-1)*/
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: 0.75s ease-out;
 
@@ -265,6 +265,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         left: 0;
         animation: 13s slider infinite;
     }
+   
     #slider figure img{
         float: left;
         width: 20%;
@@ -322,6 +323,8 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     }
     .section-title h1{
         font-family: 'Cinzel';
+        color: #BF8040;
+        text-shadow: 7rem 4rem 6rem rgba(0,0,0,1);
     }
     .section-title p{
         font-family: 'Cinzel';
@@ -337,6 +340,10 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         background-color: bisque;
         height: auto;
         padding-bottom: 20px;
+    }
+    .section-title h2{
+        font-family: 'Cinzel';
+        color: #BF8040;
     }
 
     .container img{
@@ -385,27 +392,24 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
 
     #pricelist{
         height: 100vh;
-        margin-top: 10px;
-        
-        
+        margin-top: 50px;
     }
     #pricelist img{
         width: 100%;
         height: auto;
-    }
-    h2{
-        font-family: 'Cinzel';
+        animation: fade-in linear;
+        animation-timeline: view();
+        animation-range-start: 500px;
+        animation-range-end: 700px;
     }
 
-    #pricelist ul{
-        display: block;
-        justify-content: space-between;
-        list-style-type: none;
-        
+    @keyframes fade-in{
+        from {scale: .8; opacity: 0;}
+        to {scale: 1; opacity: 1;}
     }
-    #pricelist ul li{
-        text-decoration: none;
-    }
+
+    /*END OF PRICELIST*/
+   
    
 
 
