@@ -309,7 +309,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 3 - WELCOME SECTION/INTRODUCTION*/
 
     #welcome{
-        height: auto;
+        height: 50vh;
         margin-bottom: 50px;
         background-color: ;
         
@@ -365,8 +365,9 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 4 - SERVICES*/
 
     #services{
-        background-color: bisque;
-        height: auto;
+        background-image: url(../img/);
+        background-color: ;
+        height: 50vh;
         padding-bottom: 20px;
     }
     .section-title h2{
@@ -425,6 +426,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     #pricelist img{
         width: 100%;
         height: auto;
+        margin-top: 100px;
         animation: fade-in linear;
         animation-timeline: view();
         animation-range-start: 100px;
