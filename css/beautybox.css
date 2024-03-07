@@ -421,12 +421,12 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
 
     #pricelist{
         height: 545px;
-        margin-top: 50px;
+        margin-top: 5px;
     }
     #pricelist img{
         width: 100%;
         height: auto;
-        margin-top: 100px;
+        margin-top: 5px;
         animation: fade-in linear;
         animation-timeline: view();
         animation-range-start: 100px;
