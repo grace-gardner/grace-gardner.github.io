@@ -7,13 +7,15 @@
 html{
     font-size: 12pt;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
 }/*THESE WILL MAKE SURE THAT THERE IS BACK-UP FONT DEPENDING ON THE BROWSER BEING USED IN CASE THE PREFERED FONT IS NOT AVAILABLE ON A BROWSER*/
 
 
 /*START STYLING*/
 
 body{
-    background-color: white; /*//////////CHANGE THIS TO YOUR PREFERED COLOR\\\\\\\\*/
+    background-color: cornsilk;
+
 }
 p{
     font-family: 'Cinzel';
@@ -43,7 +45,7 @@ p{
 
 nav{
     height: 60px;
-    background-color: var(--color-1);
+    background-color:var(--color-1);
     display: flex;                  
     justify-content: flex-end;    /*///////// FLEX END TO FIX THE NAV BAR TO THE RIGHT, FLEX START TO FIX IT TO THE RIGHT AND FLEX CENTER TO FIX IT IN THE CENTER. THIS WILL NEED TO CHANGE TO FLEX START TO FIX IT TO THE LEFT WHEN THE SCREEN SIZE GETS SMALLER - SEE @MEDIA QUERIES BELOW\\*/
     align-items: center;
@@ -303,8 +305,10 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 3 - WELCOME SECTION/INTRODUCTION*/
 
     #welcome{
-        height: 150px;
+        height: auto;
         margin-bottom: 50px;
+        background-color: ;
+        
     }
     
     .section-title{
@@ -321,7 +325,8 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     }
     .section-title p{
         font-family: 'Cinzel';
-        font-size: 8px;
+        font-size: 12px;
+        font-weight: bold;
         text-align: center;
         padding: 5px 10px 5px 10px;
     } /*END OF WELCOME SECTION*/
@@ -330,6 +335,8 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
 
     #services{
         background-color: bisque;
+        height: auto;
+        padding-bottom: 20px;
     }
 
     .container img{
@@ -342,6 +349,63 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         margin-bottom: 10px;
         text-align: center;
         padding-right: 5px;
+        font-size: 10px;
+        animation: slideMe 10s ease-in
     }
+    
+    @keyframes slideMe{
+        0%{
+            transform: skewX(53deg) translateX(-500px);
+        }
+        60%{
+            transform: translateX(0px);
+        
+        }
+        62%{
+            transform: skewX(0deg) translateX(30px);
+        }
+        70%{
+            transform: skew(-20deg);
+        }
+        80%{
+            transform: skew(0deg) translate(0);
+        }
+        90%{
+            transform: skew(-5deg);
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+    
+    
+    /*END OF SERVICES*/
+
+    /*SECTION 5 - PRICELIST*/
+
+    #pricelist{
+        height: 100vh;
+        margin-top: 10px;
+        
+        
+    }
+    #pricelist img{
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        font-family: 'Cinzel';
+    }
+
+    #pricelist ul{
+        display: block;
+        justify-content: space-between;
+        list-style-type: none;
+        
+    }
+    #pricelist ul li{
+        text-decoration: none;
+    }
+   
 
 
