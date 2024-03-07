@@ -319,13 +319,38 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         max-width: 1140px; /*WHEN THERE IS A FIXED WIDTH, ELEMENTS INSIDE CAN BE CENTERED BY USING MARGIN-LEFT AND MARGIN-RIGHT:AUTO*/
         margin-left: auto;
         margin-right: auto;
+        animation: fade-in linear;
+        animation-timeline: view();
+        animation-range-start: 100px;
+        animation-range-end: 700px;
         
     }
+
+    @keyframes fade-in{
+        from {scale: .8; opacity: 0;}
+        to {scale: 1; opacity: 2;}
+    }
+
     .section-title h1{
         font-family: 'Cinzel';
         color: #BF8040;
         text-shadow: 7rem 4rem 6rem rgba(0,0,0,1);
+        animation: fade-in linear;
+        animation-timeline: view();
+        animation-range-start: 200px;
+        animation-range-end: 700px;
     }
+
+    @keyframes fade-in{
+        from {scale: .8; opacity: 0;}
+        to {scale: 1; opacity: 1;}
+    }
+
+
+
+
+
+
     .section-title p{
         font-family: 'Cinzel';
         font-size: 12px;
@@ -399,7 +424,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         height: auto;
         animation: fade-in linear;
         animation-timeline: view();
-        animation-range-start: 500px;
+        animation-range-start: 200px;
         animation-range-end: 700px;
     }
 
