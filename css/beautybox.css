@@ -311,7 +311,12 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     #welcome{
         height: 50vh;
         margin-bottom: 50px;
-        background-color: ;
+        background-image: url(../img/palmbg.);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+        opacity: 0.9;
         
     }
     
@@ -423,6 +428,13 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         height: 545px;
         margin-top: 5px;
     }
+    #pricelist h2{
+        font-family: 'Cinzel';
+        color: #BF8040;
+        margin-top: 150px;
+    }
+
+
     #pricelist img{
         width: 100%;
         height: auto;
