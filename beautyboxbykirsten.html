@@ -40,7 +40,8 @@
     /*START STYLING*/
 
     body{
-        background-color: ; /*//////////CHANGE THIS TO YOUR PREFERED COLOR\\\\\\\\*/
+        
+        /*//////////CHANGE THIS TO YOUR PREFERED COLOR\\\\\\\\*/
     }
     :root{
         --color-1: #ffff; /*CHANGE THIS TO WHITE!!!!*/
@@ -326,16 +327,18 @@
         left: -400%;
     }
 }  
-.fixed-bg{
+/*.fixed-bg{
     background-image: url(img/palmbg2.png);
-    min-height: 350vh;
+    min-height: 300px;
     width: 100%;
     background-attachment: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
-}
+    opacity: 0.2;
+}*/
 
 
 </style>
@@ -383,9 +386,11 @@
     <section id="welcome">
         
             <div class="section-title">
-                <h1>Welcome to Beauty Box</h1>
-                <p>This is the welcome section. Introduce yourself, products and/or services. Encourage your readers to the sections below where they can find out more.</p>
-                <div class="fixed-bg"></div>
+              
+                
+                    <h1>Welcome to Beauty Box</h1>
+                    <p>This is the welcome section. Introduce yourself, products and/or services. Encourage your readers to the sections below where they can find out more.</p>
+                </div>
             </div>
        
        
@@ -418,9 +423,11 @@
 
     <!--SECTION 3 - PRICELIST-->
     <section id="pricelist" class="section-title">
-        <div class="section-title">
-            <h2></h2>
-            <img src="img/pricelist.png" alt="">
+        <div class="container">
+            <div class="section-title">
+                <h2></h2>
+                <img src="img/pricelist.png" alt="">
+            </div>
         </div>
     </section>
     <!--END OF SECTION 3-->
@@ -433,8 +440,14 @@
                 <h2></h2>
                 <img src="img/contact.png" alt="">
             </div>
+            
         </div>
-
+        <div class="section-title">
+            <ul>
+                <li><a href="#welcome"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#welcome"><i class="fa-brands fa-instagram"></i></a></i></li>
+            </ul>
+        </div>
     </section>
 
 

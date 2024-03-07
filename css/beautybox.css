@@ -370,9 +370,9 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 4 - SERVICES*/
 
     #services{
-        background-image: url(../img/);
-        background-color: ;
-        height: 545px;
+        background-image: url(img/palmbg2.png);
+        height: auto;
+        width: 100%;
         padding-bottom: 20px;
     }
     .section-title h2{
@@ -435,7 +435,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 5 - PRICELIST*/
 
     #pricelist{
-        height: 545px;
+        min-height: 600px;
         margin-top: 5px;
     }
     #pricelist h2{
@@ -466,15 +466,26 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 6 - CONTACT US*/
 
     #contact{
-        height: 50vh;
+        min-height: 300px ;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 5px;
     }
 
     #contact img{
         width: 100%;
         height: auto;
     }
+   #contact ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+   }
+   #contact i{
+    color: darkslategrey;
+   }
    
    
 
