@@ -401,7 +401,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         text-align: center;
         padding-right: 5px;
         font-size: 10px;
-        animation: slideMe 10s ease-in
+        animation: slideMe 10.5s ease-in
     }
     
     @keyframes slideMe{
@@ -435,7 +435,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     /*SECTION 5 - PRICELIST*/
 
     #pricelist{
-        min-height: 600px;
+        min-height: 300px;
         margin-top: 5px;
     }
     #pricelist h2{
@@ -451,7 +451,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
         margin-top: 5px;
         animation: fade-in linear;
         animation-timeline: view();
-        animation-range-start: 100px;
+        animation-range-start: 10px;
         animation-range-end: 700px;
     }
 
@@ -468,6 +468,7 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
     #contact{
         min-height: 300px ;
         width: 100%;
+        margin-top: 100px;
         margin-bottom: 5px;
     }
 
