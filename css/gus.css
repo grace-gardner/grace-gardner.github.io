@@ -129,20 +129,20 @@ body{
 
 }
 
-@media (max-width:590px){
+/*@media (max-width:590px){
     .video-bg{
         position: absolute;
         z-index: -1;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        min-width: 75%;
+        max-width: 75%;
         max-height: 50%;
     
     }
-}
+}*/
 
-@media (max-width:390px){
+/*@media (max-width:390px){
     .video-bg{
         position: absolute;
         z-index: -1;
@@ -153,4 +153,4 @@ body{
         max-height: 75%;
     
     }
-}
+}*/
