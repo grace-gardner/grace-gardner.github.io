@@ -136,23 +136,34 @@ body{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        min-width: 90%;
-        min-height: 90%;
+        min-width: 90vw;
+        min-height: 100vh;
     
+    }
+    .hero a{
+        margin-top: 15px;
+        font-size: 13px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 15px 25px;
+        border-radius: 25px;
     }
 }
 
-/*@media (max-width:390px){
+
+
+@media (max-width:390px){
     .video-bg{
         position: absolute;
         z-index: -1;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 75%;
-        max-height: 75%;
+        top: 55%;
+        left: 140%;
+        /*transform: translate(-25%, -25%);*/
+        min-width: 100vw;
+        min-height: 100vh;
     
     }
-}*/
+}
 
 
