@@ -487,13 +487,6 @@ nav svg{                /*\\\\\\ THE SVG ARE THE HAMBURGER AND X ICONS DOWNLADED
    #contact i{
     color: darkslategrey;
    }
-   #contact a{
-        box-sizing: border-box;
-        height: auto;
-        width: 100%;
-        padding: 20px 30px;
-        justify-content: flex-start;
-   }
   
    
    
