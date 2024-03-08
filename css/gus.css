@@ -88,7 +88,7 @@ body{
 
 /*////////////////////////// OPTION 2 \\\\\\\\\\\\\\\\\\\\\*/
 .hero{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -100,10 +100,18 @@ body{
     min-height: 100vh;
 }
 
+.hero h1{
+    margin-top: 200px;
+}
+
 
 .hero a{
-    
-    margin-top: 25px;
+    max-width: 150px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 125px;
     font-size: 23px;
     color: white;
     text-decoration: none;
