@@ -115,7 +115,8 @@ body{
 
 .hero h1{
     margin-top: 200px;
-    padding-right: 25px;
+    padding-right: 23px;
+    font-family: 'Shadows Into Light', sans-serif;
 }
 
 
@@ -216,7 +217,7 @@ body{
     
     }
     .hero a{
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 18px;
     }
 }
@@ -247,6 +248,7 @@ body{
     width: 25px;
     margin: 50px auto;
     cursor: pointer;
+   
 }
 .social-links i:nth-child(1){
     margin-bottom: 50px;
