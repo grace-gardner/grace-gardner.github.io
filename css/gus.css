@@ -226,15 +226,15 @@ body{
 
 
 
-.side-bar{
-    width: 42px;
+/*.side-bar{
+    width: 25px;
     min-height: 100vh;
     margin-top: 50px;
     background: linear-gradient(hsl(278, 68%, 68%), #00545d);
     position: absolute;
     right: 0;
     top: 0;
-}
+}*/
 
 .social-links{
     display: block;
@@ -242,6 +242,12 @@ body{
     padding-left: 15px;
 
     
+}
+
+.social-links ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 .social-links i{
     color: white;
