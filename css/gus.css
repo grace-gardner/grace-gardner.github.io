@@ -8,7 +8,7 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(110deg, #0f1829, #050812);
+    background: linear-gradient(110deg, #b27218, hsla(38, 99%, 32%, 0.601));
 }
 
 .big-container{
@@ -69,6 +69,7 @@ header .logo{
     float: left;
     margin-top: 10px;
     margin-left: 20px;
+    opacity: 0.3;
 }
 
 header img{
@@ -158,6 +159,11 @@ section{
     animation: fade 2s ease-in-out forwards;
     animation-delay: 2s;
     opacity: 0;
+}
+
+section img{
+    opacity: 0.3;
+    border-radius: 100px;
 }
 section h2{
     text-transform: uppercase;
