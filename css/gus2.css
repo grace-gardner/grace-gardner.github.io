@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.container{ /*TARGETS *MEASUREMENTS* OF ALL CONTAINERS*/
+    max-width: 1140px;
+    margin-left: auto; /*TO CENTER EVERYTHING INSIDE A BOX, USE MARGIN LEFT AND RIGHT TO AUTO */
+    margin-right: auto;
+    overflow: hidden;
+    
+}
+#section-1{
+    background: none;/*linear-gradient(to right,#993366, #ff66ff);/*CHANGE THIS!!!!*/
+    height: 100vh;
+   
+     
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    z-index: -1;
+}
+
