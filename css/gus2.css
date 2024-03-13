@@ -96,14 +96,33 @@ nav ul li a{
     font-weight: bold;
     padding-bottom: 50px;
     /*box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);*/
+    animation: fade 6s ease-in-out forwards;
+    opacity: 0;
+
     
 }
+
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
+}
+
 #main-heading-and-cta h2{
     color: white;
     font-size: 22px;
     font-family: 'Dancing script';
     margin-bottom: 60px;
+    animation: fade 8s ease-in-out forwards;
+    opacity: 0;
+    
 
+}
+
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
 }
 
 #main-heading-and-cta p{
