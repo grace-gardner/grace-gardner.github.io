@@ -73,7 +73,7 @@ nav ul li a{
     font-size: 18px;
 }
 #main-heading-and-cta{
-    margin-top: 145px;
+    /*margin-top: 145px;*/
     text-align: center;
     animation: fade 5s ease-in-out forwards;
     opacity: 0;
@@ -86,7 +86,8 @@ nav ul li a{
 }
 
 #main-heading-and-cta img{
-    margin-bottom: 230px;
+    /*margin-bottom: 230px;*/
+    opacity: 0.2;
 }
 
 #main-heading-and-cta h1{
@@ -94,7 +95,7 @@ nav ul li a{
     text-shadow: rgba(0,0,0,0.9);
     font-size: 42px;
     font-weight: bold;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     /*box-shadow: 7rem 4rem 6rem rgba(0,0,0,0.9);*/
     animation: fade 6s ease-in-out forwards;
     opacity: 0;
@@ -112,7 +113,7 @@ nav ul li a{
     color: white;
     font-size: 22px;
     font-family: 'Dancing script';
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
     animation: fade 8s ease-in-out forwards;
     opacity: 0;
     
@@ -128,7 +129,7 @@ nav ul li a{
 #main-heading-and-cta p{
     font-size: 22px;
     color: white;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 #main-heading-and-cta a{
     text-decoration: none;
