@@ -121,7 +121,7 @@ header .logo h1{
 
  .active{
     background: teal;
-    border-radius: 20px;
+    border-radius: 30px;
  }
 
  a:hover{
