@@ -71,6 +71,8 @@ body{
     width: 200px;
 }
 
+
+
 .active{
     font-size: 12px;
     background-color: teal;
@@ -79,6 +81,10 @@ body{
     border: 1px solid white;
     text-align: center;
 }
+.main-heading .active:hover{
+    background-color: white;
+    cursor: pointer;
 
+}
 
 
