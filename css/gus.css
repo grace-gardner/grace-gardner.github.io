@@ -160,7 +160,12 @@ a:hover{
     }
     
     .accordion span:hover{
-        flex: 100%;
+        flex: 5;
+        width: 100vw;
+        min-height: 450px;
+        margin-inline: 10px;
+        margin-inline: 10px;
+
     }
 
 }
