@@ -110,6 +110,19 @@ a:hover{
     }
 }
 
+.main-heading p{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 15px;
+    color: black;
+    animation: fade 7s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
+}
 
 
 
