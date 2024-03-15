@@ -158,22 +158,40 @@ a:hover{
 }
 
 @media (max-width: 279px){
+    
+    .accordion{
+        max-width: 1140px;
+        margin-inline: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        min-height: 100vh;
+    }
+    
+    
     .accordion span{
         flex: 1;
-        min-height: 450px;
+        min-height: 250px;
+        margin-bottom: 5px;
         margin-inline: 10px;
         margin-inline: 10px;
         transition: all 0.5s ease;
     }
     
     .accordion span:hover{
-        flex: 5;
+        flex: 10;
         width: 100vw;
         min-height: 450px;
         margin-inline: 10px;
         margin-inline: 10px;
 
     }
+
+    .accordion .image{
+        display: block;
+    }
+   
 
 }
 
