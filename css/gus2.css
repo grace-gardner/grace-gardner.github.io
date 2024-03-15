@@ -75,7 +75,7 @@ a:hover{
 
 .main-heading h1{
     font-family: 'Shadows Into Light', sans-serif;
-    color: white;
+    color: black;
     animation: fade 5s ease-in-out forwards;
     opacity: 0;
 }
