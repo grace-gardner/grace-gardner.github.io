@@ -157,7 +157,7 @@ a:hover{
     padding-top: 20px;
 }
 
-@media (max-width: 279px){
+@media (max-width: 282px){
     
     .accordion{
         max-width: 1140px;
