@@ -111,7 +111,7 @@ a:hover{
 }
 
 .accordion span:hover{
-    flex: 4;
+    flex: 5;
 }
 
 .accordion .image:nth-child(1){

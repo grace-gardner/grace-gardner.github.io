@@ -48,6 +48,45 @@ a:hover{
 }
 /*END OF LINK BUTTON*/
 
+/*GIGS HEADING*/
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+/*Individual Styles*/
+
+#home{
+    background: black;
+    height: 245px;
+}
+
+.main-heading{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main-heading img{
+    width: 100px;
+    height: 100%;
+}
+
+.main-heading h1{
+    font-family: 'Shadows Into Light', sans-serif;
+    color: white;
+    animation: fade 5s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
+}
+
+
 /*ACCORDION IMAGE HOVER*/
 .accordion{
     max-width: 1140px;
