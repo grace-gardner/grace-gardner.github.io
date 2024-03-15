@@ -119,6 +119,10 @@ a:hover{
 
 .accordion span:hover{
     flex: 5;
+    min-height: 850px;
+    margin-inline: 10px;
+    margin-inline: 10px;
+    transition: all 0.5s ease;
 }
 
 .accordion .image:nth-child(1){
