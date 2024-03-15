@@ -111,7 +111,7 @@ a:hover{
 }
 
 .accordion span:hover{
-    flex: 3;
+    flex: 4;
 }
 
 .accordion .image:nth-child(1){
@@ -129,7 +129,7 @@ a:hover{
 }
 
 .accordion .image:nth-child(3){
-    background-image: url(../img/stoners.jpg);
+    background-image: url(../img/stoners2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -141,3 +141,12 @@ a:hover{
     background-size: cover;
     background-position: center center;
 }
+
+.accordion .text{
+    z-index: 1;
+    text-align: center;
+    color: teal;
+    text-shadow: 0 0 3px white;
+    padding-top: 20px;
+}
+
