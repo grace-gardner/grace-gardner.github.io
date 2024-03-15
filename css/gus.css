@@ -62,29 +62,6 @@ body{
     }
 }
 
-.main-heading a{
-    text-decoration: none;
-    background-color: teal;
-    color: white;
-    display: inline-block;
-    text-shadow: 0 0 5px white;
-    width: 200px;
-}
 
-
-
-.active{
-    font-size: 12px;
-    background-color: teal;
-    border-radius: 20px;
-    width: 95px;
-    border: 1px solid white;
-    text-align: center;
-}
-.main-heading .active:hover{
-    background-color: white;
-    cursor: pointer;
-
-}
 
 
