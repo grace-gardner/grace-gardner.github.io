@@ -63,7 +63,7 @@ a:hover{
 
 #gigs h2{
     transition: width 2s, height 2s, transform 2s;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 #gigs h2:hover{
@@ -180,4 +180,12 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.accordion p{
+    z-index: 1;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 10px;
 }
