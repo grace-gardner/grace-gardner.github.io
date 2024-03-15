@@ -150,3 +150,18 @@ a:hover{
     padding-top: 20px;
 }
 
+@media (max-width: 279px){
+    .accordion span{
+        flex: 1;
+        min-height: 450px;
+        margin-inline: 10px;
+        margin-inline: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .accordion span:hover{
+        flex: 10;
+    }
+
+}
+
