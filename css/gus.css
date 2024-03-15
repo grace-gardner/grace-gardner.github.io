@@ -92,3 +92,52 @@ a:hover{
 }
 
 
+.accordion{
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.accordion span{
+    flex: 1;
+    min-height: 450px;
+    margin-inline: 10px;
+    margin-inline: 10px;
+    transition: all 0.5s ease;
+}
+
+.accordion span:hover{
+    flex: 3;
+}
+
+.accordion .image:nth-child(1){
+    background-image: url(../img/empirerock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.accordion .image:nth-child(2){
+    background-image: url(../img/rockisland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.accordion .image:nth-child(3){
+    background-image: url(../img/stoners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.accordion .image:nth-child(4){
+    background-image: url(../img/yorkbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

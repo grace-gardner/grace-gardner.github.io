@@ -4,11 +4,7 @@ body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     margin: 0;
     padding: 0;
     font-family: 'Cinzel', sans-serif;
-    background-image: url(../img/empirerock.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
+    
 
     
     
@@ -20,6 +16,8 @@ html{
     font-size: 62.5%;
 }
 
+
+/*LINK BUTTON*/
 a{
     display: grid;
     height: 50px;
@@ -47,4 +45,56 @@ a:hover{
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+/*END OF LINK BUTTON*/
+
+/*ACCORDION IMAGE HOVER*/
+.accordion{
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.accordion span{
+    flex: 1;
+    min-height: 450px;
+    margin-inline: 10px;
+    margin-inline: 10px;
+    transition: all 0.5s ease;
+}
+
+.accordion span:hover{
+    flex: 3;
+}
+
+.accordion .image:nth-child(1){
+    background-image: url(../img/empirerock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.accordion .image:nth-child(2){
+    background-image: url(../img/rockisland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.accordion .image:nth-child(3){
+    background-image: url(../img/stoners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.accordion .image:nth-child(4){
+    background-image: url(../img/yorkbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
