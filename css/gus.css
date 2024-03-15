@@ -160,7 +160,7 @@ a:hover{
     }
     
     .accordion span:hover{
-        flex: 10;
+        flex: 100%;
     }
 
 }
