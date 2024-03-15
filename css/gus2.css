@@ -59,11 +59,12 @@ a:hover{
 
 #gigs{
     height: 100vh;
+    
 }
 
 #gigs h2{
-    transition: width 2s, height 2s, transform 2s;
-    transform: rotate(360deg);
+    transition: width 2s, height 0s, transform 2s;
+    transform: rotate(180deg);
 }
 
 #gigs h2:hover{
