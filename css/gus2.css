@@ -113,6 +113,7 @@ a:hover{
 }
 
 .main-heading h1{
+    margin-top: 10px;
     font-family: 'Shadows Into Light', sans-serif;
     font-size: 50px;
     color: black;
@@ -132,11 +133,21 @@ a:hover{
 
 .main-heading p{
     font-family: 'Cinzel', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     color: black;
-    animation: fade 7s ease-in-out forwards;
-    opacity: 0;
+    /*animation: fade 7s ease-in-out forwards;
+    opacity: 0;*/
+    opacity: 0.8;
+    animation: pulseAnimate 4s ease-out;
 }
+
+@keyframes pulseAnimate{
+    100%{
+        opacity: 10;
+        transform: scale(2);
+    }
+}
+
 
 @keyframes fade{
     to{
