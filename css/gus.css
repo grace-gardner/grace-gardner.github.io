@@ -62,6 +62,13 @@ body{
     }
 }
 
+.main-heading h2{
+    font-family: 'Shadows Into Light', sans-serif;
+    color: white;
+}
+
+
+
 a{
     display: grid;
     height: 50px;
