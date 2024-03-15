@@ -134,7 +134,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    min-height: 50vh;
+    /*min-height: 50vh;*/
 }
 
 .accordion span{
