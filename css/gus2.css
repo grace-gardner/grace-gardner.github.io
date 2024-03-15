@@ -23,7 +23,7 @@ a{
     display: grid;
     height: 50px;
     width: 250px;
-    background: teal;
+    background: black;
     position: absolute;
     margin: auto;
     left: 0;
@@ -58,11 +58,16 @@ a:hover{
 }
 
 #gigs{
-    transition: width 2s, height 2s, transform 2s;
+    height: 100vh;
 }
 
-#gigs:hover{
+#gigs h2{
+    transition: width 2s, height 2s, transform 2s;
     transform: rotate(180deg);
+}
+
+#gigs h2:hover{
+    transform: rotate(-360deg);
 }
 
 .main-heading h2{
