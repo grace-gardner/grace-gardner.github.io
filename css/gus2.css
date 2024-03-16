@@ -277,6 +277,7 @@ a:hover{
 #original-songs img{
     width: 250px;
     height: auto;
+    z-index: -1;
 }
 #original-songs .play-btn{
     width: 60px;
@@ -285,4 +286,11 @@ a:hover{
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+}
+#original-songs audio{
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
