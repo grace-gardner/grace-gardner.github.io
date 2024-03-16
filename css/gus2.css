@@ -232,7 +232,7 @@ a:hover{
     display: grid;
     height: 50px;
     width: 350px;
-    background: black;
+    background: red;
     position: absolute;
     margin: auto;
     left: 0;
@@ -253,5 +253,7 @@ a:hover{
     background-color: white;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: red;
 }
+
+
