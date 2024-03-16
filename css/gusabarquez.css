@@ -19,34 +19,7 @@ html{
 
 
 /*LINK BUTTON*/
-a{
-    display: grid;
-    height: 50px;
-    width: 250px;
-    background: grey;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    /*top: 0;
-    bottom: 0;*/
-    place-items: center;
-    font-family: 'Cinzel', sans-serif;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    text-decoration: none;
-    letter-spacing: 1px;
-    border-radius: 5px;
 
-}
-
-a:hover{
-    background-color: white;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-}
 /*END OF LINK BUTTON*/
 
 /*GIGS HEADING*/
@@ -57,19 +30,7 @@ a:hover{
     overflow: hidden;
 }
 
-#gigs{
-    height: 100vh;
-    
-}
 
-#gigs h2{
-    transition: width 2s, height 0s, transform 2s;
-    transform: rotate();
-}
-
-#gigs h2:hover{
-    transform: rotate(-360deg);
-}
 
 .main-heading h2{
     font-family: 'Shadows Into Light', sans-serif;
@@ -157,10 +118,51 @@ a:hover{
         opacity: 1;
     }
 }
+#home a{
+    display: grid;
+    height: 50px;
+    width: 250px;
+    background: grey;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    /*top: 0;
+    bottom: 0;*/
+    place-items: center;
+    font-family: 'Cinzel', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
 
+}
+
+#home a:hover{
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
 
 
 /*ACCORDION IMAGE HOVER*/
+#gigs{
+    height: 100vh;
+    
+}
+
+#gigs h2{
+    transition: width 2s, height 0s, transform 2s;
+    transform: rotate();
+}
+
+#gigs h2:hover{
+    transform: rotate(-360deg);
+}
+
 .accordion{
     max-width: 1140px;
     margin-inline: auto;
@@ -219,6 +221,7 @@ a:hover{
     padding-top: 210px;
     padding-bottom: 210px;
 }
+
 
 
 #acoustic-covers{
@@ -341,3 +344,18 @@ a:hover{
     color: lime;
     font-size: 21.5px;
 }
+
+#social{
+    width: 100%;
+    height: 50vh;
+}
+#social a{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#social a i{
+    font-size: 30px;
+    padding-right: 30px;
+}
+
