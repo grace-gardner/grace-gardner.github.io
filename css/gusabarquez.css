@@ -357,5 +357,9 @@ html{
 #social a i{
     font-size: 30px;
     padding-right: 30px;
+    
+}
+#social a:hover{
+    color: grey;
 }
 
