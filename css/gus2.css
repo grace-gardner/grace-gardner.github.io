@@ -23,7 +23,7 @@ a{
     display: grid;
     height: 50px;
     width: 250px;
-    background: black;
+    background: grey;
     position: absolute;
     margin: auto;
     left: 0;
@@ -110,6 +110,9 @@ a:hover{
 .main-heading img{
     width: 100px;
     height: 100%;
+    opacity: 0.3;
+    border-radius: 70px;
+    margin-bottom: 20px;
 }
 
 .main-heading h1{
@@ -181,28 +184,28 @@ a:hover{
 }
 
 .accordion .image:nth-child(1){
-    background-image: url(../img/empirerock.jpg);
+    background-image: url(../img/empirerock2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .accordion .image:nth-child(2){
-    background-image: url(../img/rockisland.jpg);
+    background-image: url(../img/rockisland2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .accordion .image:nth-child(3){
-    background-image: url(../img/stoners.jpg);
+    background-image: url(../img/stoners2_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .accordion .image:nth-child(4){
-    background-image: url(../img/yorkbar.jpg);
+    background-image: url(../img/yorkbar2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -232,7 +235,7 @@ a:hover{
     display: grid;
     height: 50px;
     width: 350px;
-    background: red;
+    background: grey;
     position: absolute;
     margin: auto;
     left: 0;
@@ -256,6 +259,11 @@ a:hover{
     color: red;
 }
 
+#acoustic-covers .fa-solid{
+    color: red;
+}
+
+
 #acoustic-covers h2{
     margin-top: 250px;
 }
@@ -278,6 +286,7 @@ a:hover{
     width: 250px;
     height: auto;
     z-index: -1;
+    opacity: 1;
 }
 #original-songs .play-btn{
     width: 60px;
@@ -293,4 +302,40 @@ a:hover{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#original-songs p{
+    animation: none;
+}
+
+#original-songs a{
+    display: grid;
+    height: 50px;
+    width: 350px;
+    background: grey;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    /*top: 0;
+    bottom: 0;*/
+    place-items: center;
+    font-family: 'Cinzel', sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+#original-songs a:hover{
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    color: grey;
+}
+
+#original-songs .fa-brands{
+    color: lime;
 }
