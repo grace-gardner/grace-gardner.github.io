@@ -256,4 +256,33 @@ a:hover{
     color: red;
 }
 
+#acoustic-covers h2{
+    margin-top: 250px;
+}
 
+
+
+#original-songs .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#original-songs .col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+
+#original-songs img{
+    width: 250px;
+    height: auto;
+}
+#original-songs .play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
