@@ -52,7 +52,7 @@ body{
 .main-heading p{
     font-family: 'Cinzel', sans-serif;
     color: white;
-    animation: fade 10s ease-in forwards;
+    animation: fade 3s ease-in forwards;
     opacity: 0;
 }
 
@@ -60,6 +60,7 @@ body{
     to{
         opacity: 2;
     }
+    
 }
 
 .main-heading h2{
