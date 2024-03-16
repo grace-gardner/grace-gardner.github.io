@@ -53,12 +53,12 @@ body{
     font-family: 'Cinzel', sans-serif;
     color: white;
     animation: fade 3s ease-in forwards;
-    opacity: 0;
+    opacity: 3;
 }
 
 @keyframes fade{
     to{
-        opacity: 2;
+        opacity: 0.2;
     }
     
 }
