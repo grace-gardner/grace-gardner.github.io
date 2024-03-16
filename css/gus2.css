@@ -121,7 +121,7 @@ a:hover{
     font-size: 50px;
     color: black;
     opacity: 0.8;
-    animation: pulseAnimate 4s ease-out;
+    /*animation: pulseAnimate 4s ease-out;*/
 }
 
 @keyframes pulseAnimate{
@@ -136,7 +136,7 @@ a:hover{
 
 .main-heading p{
     font-family: 'Cinzel', sans-serif;
-    font-size: 25px;
+    font-size: 12.5px;
     color: black;
     /*animation: fade 7s ease-in-out forwards;
     opacity: 0;*/
