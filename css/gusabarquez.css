@@ -53,14 +53,15 @@ html{
     height: 100vh; /*245px*/
     padding-bottom: 200px;
     margin-bottom: 200px;
-    background-image: url(../img/gusheadingbg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
     
     
     
     
+    
+}
+#top-header{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -369,7 +370,7 @@ html{
 
 #social{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
 }
 #social a{
     display: flex;
