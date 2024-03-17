@@ -49,7 +49,7 @@ html{
 
 #home{
     background: whitesmoke;
-    height: 245px;
+    height: 100vh; /*245px*/
     padding-bottom: 200px;
     margin-bottom: 200px;
 }
@@ -123,7 +123,16 @@ html{
 /*ACCORDION IMAGE HOVER*/
 #gigs{
     height: 100vh;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: 50px;
+    animation-range-end: 600px;
     
+}
+
+@keyframes fade-in{
+    from {scale: .8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
 }
 
 #gigs h2{
@@ -208,8 +217,8 @@ html{
     height: 100vh;
     animation: fade-in linear;
     animation-timeline: view();
-    animation-range-start: 100px;
-    animation-range-end: 1000px;
+    animation-range-start: 50px;
+    animation-range-end: 600px;
     
 }
 
@@ -227,7 +236,6 @@ html{
     display: grid;
     height: 200px;
     width: 350px;
-    background: grey;
     position: absolute;
     margin: auto;
     left: 0;
@@ -236,7 +244,7 @@ html{
     bottom: 0;*/
     place-items: center;
     font-family: 'Cinzel', sans-serif;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -300,14 +308,17 @@ html{
 }
 
 #original-songs p{
+    color: grey;
     animation: none;
+    font-size: 25px;
+    text-shadow: 0 0 5px black;
+    
 }
 
 #original-songs a{
     display: grid;
     height: 200px;
     width: 350px;
-    background: grey;
     position: absolute;
     margin: auto;
     left: 0;
@@ -316,7 +327,7 @@ html{
     bottom: 0;*/
     place-items: center;
     font-family: 'Cinzel', sans-serif;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
