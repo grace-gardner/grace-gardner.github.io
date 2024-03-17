@@ -154,16 +154,16 @@ html{
 
 #gigs h2{
     margin-bottom: 20px;
-    transition: width 2s, height 0s, transform 2s;
-    transform: rotate();
+    /*transition: width 2s, height 0s, transform 2s;
+    transform: rotate();*/
     
 }
 
 
 
-#gigs h2:hover{
+/*#gigs h2:hover{
     transform: rotate(-360deg);
-}
+}*/
 
 #gigs p{
     animation: none;
