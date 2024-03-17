@@ -15,14 +15,11 @@ body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 
-/*LINK BUTTON*/
 
-/*END OF LINK BUTTON*/
-
-/*GIGS HEADING*/
 .container{
     max-width: 1140px;
     margin-left: auto;
@@ -32,15 +29,7 @@ html{
 
 
 
-.main-heading h2{
-    font-family: 'Shadows Into Light', sans-serif;
-    font-size: 65px;
-    color: black;
-    text-shadow: 0 0 5px black;
-    opacity: 0.8;
-    /*animation: pulseAnimate 4s ease-out;*/
-    /*opacity: 0;*/
-}
+
 
 /*@keyframes pulseAnimate{
     100%{
@@ -61,6 +50,8 @@ html{
 #home{
     background: whitesmoke;
     height: 245px;
+    padding-bottom: 200px;
+    margin-bottom: 200px;
 }
 
 .main-heading{
@@ -72,7 +63,6 @@ html{
     width: 100px;
     height: 100%;
     opacity: 0.3;
-    border-radius: 70px;
     margin-bottom: 20px;
 }
 
@@ -118,35 +108,17 @@ html{
         opacity: 1;
     }
 }
-#home a{
-    display: grid;
-    height: 50px;
-    width: 250px;
-    background: grey;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    /*top: 0;
-    bottom: 0;*/
-    place-items: center;
-    font-family: 'Cinzel', sans-serif;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    text-decoration: none;
-    letter-spacing: 1px;
-    border-radius: 5px;
 
-}
-
-#home a:hover{
-    background-color: white;
-    cursor: pointer;
-    text-decoration: none;
+.main-heading h2{
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 65px;
     color: black;
+    text-shadow: 0 0 5px black;
+    opacity: 0.8;
+    
 }
 
+ 
 
 /*ACCORDION IMAGE HOVER*/
 #gigs{
@@ -155,6 +127,7 @@ html{
 }
 
 #gigs h2{
+    margin-bottom: 20px;
     transition: width 2s, height 0s, transform 2s;
     transform: rotate();
 }
@@ -162,6 +135,12 @@ html{
 #gigs h2:hover{
     transform: rotate(-360deg);
 }
+
+#gigs p{
+    animation: none;
+}
+
+
 
 .accordion{
     max-width: 1140px;
@@ -227,6 +206,16 @@ html{
 #acoustic-covers{
     width: 100%;
     height: 100vh;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: 100px;
+    animation-range-end: 1000px;
+    
+}
+
+@keyframes fade-in{
+    from {scale: .8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
 }
 
 #acoustic-covers iframe{
@@ -236,7 +225,7 @@ html{
 
 #acoustic-covers a{
     display: grid;
-    height: 50px;
+    height: 200px;
     width: 350px;
     background: grey;
     position: absolute;
@@ -248,7 +237,7 @@ html{
     place-items: center;
     font-family: 'Cinzel', sans-serif;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
@@ -264,12 +253,13 @@ html{
 
 #acoustic-covers .fa-solid{
     color: red;
-    font-size: 21.5px;
+    font-size: 35px;
 }
 
 
 #acoustic-covers h2{
-    margin-top: 250px;
+    margin-top: 350px;
+    margin-bottom: 50px;
 }
 
 
@@ -291,6 +281,7 @@ html{
     height: auto;
     z-index: -1;
     opacity: 1;
+    border-radius: none;
 }
 #original-songs .play-btn{
     width: 60px;
@@ -314,7 +305,7 @@ html{
 
 #original-songs a{
     display: grid;
-    height: 50px;
+    height: 200px;
     width: 350px;
     background: grey;
     position: absolute;
@@ -326,7 +317,7 @@ html{
     place-items: center;
     font-family: 'Cinzel', sans-serif;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
@@ -342,7 +333,7 @@ html{
 
 #original-songs .fa-brands{
     color: lime;
-    font-size: 21.5px;
+    font-size: 35px;
 }
 
 #social{
