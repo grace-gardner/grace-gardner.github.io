@@ -50,7 +50,7 @@ html{
 
 #home{
     min-width: 100vw;
-    height: 100vh; /*245px*/
+    height: 945px; /*245px*/
     padding-bottom: 200px;
     margin-bottom: 200px;
     -webkit-animation: fadeInTop 1.2s both;
@@ -121,7 +121,7 @@ html{
     font-family: 'Cinzel', sans-serif;
     font-size: 25px;
     font-weight: bold;
-    color: rgba(232, 239, 239, 0.668);
+    color: teal;
     /*animation: fade 7s ease-in-out forwards;
     opacity: 0;*/
     opacity: 0.8;
