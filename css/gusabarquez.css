@@ -50,7 +50,7 @@ html{
 
 #home{
     min-width: 100vw;
-    height: 945px; /*245px*/
+    height: 100vh;/*245px*/
     padding-bottom: 200px;
     margin-bottom: 200px;
     -webkit-animation: fadeInTop 1.2s both;
