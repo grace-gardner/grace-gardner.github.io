@@ -50,9 +50,9 @@ html{
 
 #home{
     min-width: 100vw;
-    min-height: 945px;/*245px*/
+    height: 100vh;/*245px*/
     padding-bottom: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 500px;
     -webkit-animation: fadeInTop 1.2s both;
     -moz-animation: fadeInTop 1.2s both;
     -o-animation: fadeInTop 1.2s both;
@@ -106,6 +106,7 @@ html{
     font-weight: bold;
     color: black;
     opacity: 0.8;
+    
     /*animation: pulseAnimate 4s ease-out;*/
 }
 
@@ -144,6 +145,8 @@ html{
     }
 }
 
+
+
 .main-heading h2{
     font-family: 'Shadows Into Light', sans-serif;
     font-size: 65px;
@@ -172,6 +175,7 @@ html{
 
 #gigs h2{
     margin-bottom: 20px;
+    text-shadow: 0 0 5px teal;
     /*transition: width 2s, height 0s, transform 2s;
     transform: rotate();*/
     
@@ -305,6 +309,7 @@ html{
 #acoustic-covers h2{
     margin-top: 350px;
     margin-bottom: 50px;
+    text-shadow: 0 0 5px teal;
     
 }
 
@@ -336,6 +341,7 @@ html{
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    text-shadow: 0 0 5px teal;
 }
 #original-songs audio{
     z-index: 1;
@@ -391,21 +397,35 @@ html{
 #social{
     width: 100%;
     height: 545px;
+   
+    
 }
 
-#social .main-heading a{
-    display: flex;
-    
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 5px;
+#social .main-heading{
+    display: inline-table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
+
+
 #social a i{
     font-size: 30px;
     padding-right: 30px;
-    
-}
-#social a:hover{
-    color: grey;
 }
 
+
+#social .fa-brands{
+    color: teal;
+}
+
+
+
+
+@media (orientation: landscape){
+    #home{
+        width: 100%;
+        min-height: 945px;
+    }
+}
