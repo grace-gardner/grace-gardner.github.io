@@ -29,7 +29,19 @@ html{
 }
 
 
-
+nav{
+    float: right;
+    padding-top: 18px;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
 
 
 /*@keyframes pulseAnimate{
@@ -319,6 +331,7 @@ html{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 #original-songs .col{
@@ -423,7 +436,7 @@ html{
 
 
 #social a{
-    display: grid;
+    display: inline-table;
     height: 0px;
     width: 0px;
     position: absolute;
@@ -439,8 +452,11 @@ html{
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
+}
+
+#social .main-heading a:nth-child(1){
+    padding-right: 150px;
 }
 
 #social a:hover{
@@ -451,7 +467,7 @@ html{
 }
 #social a i{
     font-size: 30px;
-    padding-right: 30px;
+    
     
 }
 
@@ -459,6 +475,7 @@ html{
 #social .fa-brands{
     color: teal;
 }
+
 
 
 
