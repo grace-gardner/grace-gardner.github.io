@@ -80,6 +80,7 @@ nav ul li a:hover{
     padding-bottom: 200px;
     margin-bottom: 500px;
     background-color: darkgrey;
+    box-shadow: 8rem 4rem 6rem rgba(0,0,0,0.9);
     -webkit-animation: fadeInTop 1.2s both;
     -moz-animation: fadeInTop 1.2s both;
     -o-animation: fadeInTop 1.2s both;
@@ -289,6 +290,7 @@ nav ul li a:hover{
     height: 100vh;
     margin-top: 100px;
     background-color: darkgrey;
+    box-shadow: 8rem 8rem 6rem rgba(0,0,0,0.9);
    
     
 }
@@ -384,7 +386,8 @@ nav ul li a:hover{
 }
 
 #original-songs p{
-    color: black;
+    color: white;
+    text-shadow: 0 0 5px lightgray;
     animation: none;
     font-size: 25px;
     text-shadow: 0 0 5px grey;
