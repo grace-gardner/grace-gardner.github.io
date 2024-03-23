@@ -38,9 +38,6 @@ h2{
 
 
 /*navigation styles start here*/
-
-
-
 header{
     text-align: center;
     position: fixed;
@@ -143,9 +140,105 @@ nav a:hover{
 }
 /*END OF NAVIGATION STYLES*/
 
+/*SLIDER*/
+#slider{
+    overflow: hidden;
+    min-height: ;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 5s slider;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+/*END OF SLIDER*/
+
+/*EMPTY DIV 1*/
+#empty-div .wrapper{
+    width: 100%;
+    height: 215px;
+}
+
+.empty-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty-div p{
+    text-align: center;
+    margin-top: 50px;
+    color: slategrey;
+    font-size: 18px;
+}
+
+.empty-div button{
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.empty-div button:hover{
+    background: wheat;
+    opacity: 0.6;
+}
+
+.empty-div button a{
+    text-align: center;
+    text-decoration: none;
+    color: slategrey;
+}
+
+
+/*END OF EMPTY DIV 1*/
+
+
+
 /*PROJECTS SECTION*/
-
-
 div.gallery {
     border: 1px solid #ccc;
   }
