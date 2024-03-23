@@ -9,20 +9,42 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     height: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Cinzel', sans-serif;
 }
 
 
-.container{
+.wrapper{
     max-width: 1690px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
 }
 
+h1{
+    text-align: center;
+    text-transform: lowercase;
+}
+
+h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: slategrey;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 
 
 /*navigation styles start here*/
+
+#home{
+    width: 100%;
+    height: auto;
+    margin-bottom: 300px;
+     
+}
 
 header{
     text-align: center;
@@ -32,12 +54,17 @@ header{
 }
 
 header .logo{
-    color: red;
+    color: slategrey;
+    opacity: 0.5;
     float: left;
-    padding-left: 50px;
+    padding-left: 55px;
     padding-right: 10px;
     font-size: 12px;
     margin-top: 10px;
+}
+
+header span{
+    font-size: 22px;
 }
 
 .nav-toggle{                  /*this is the <input> checkbox*/
@@ -118,19 +145,59 @@ nav a:hover{
 .nav-toggle:checked ~ nav{
     transform: scale(1, 1);
 }
+/*END OF NAVIGATION STYLES*/
 
-#home{
+/*PROJECTS SECTION*/
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    background-color: darkgrey;
+    transform: translateY(-.5rem);
+  }
+  
+  div.gallery img {
     width: 100%;
     height: auto;
-     
-}
-
-
-
-
-
-
-
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
@@ -149,4 +216,40 @@ nav a:hover{
     .header{
         padding-left: 100px;
     }
+}
+
+@media (max-width: 958px){
+    #home{
+        width: 100%;
+        height: auto;
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 580px){
+    #home{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 65px;
+    }
+    header span{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 405px){
+    #home{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 275px;
+    }
+}
+
+@media (max-width: 281px){
+    #home{
+        width: 100%;
+        height: 25%;
+        margin-bottom: 15px;
+    }
+    
 }
