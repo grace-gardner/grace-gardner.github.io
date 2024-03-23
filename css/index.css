@@ -39,12 +39,7 @@ h2{
 
 /*navigation styles start here*/
 
-#home{
-    width: 100%;
-    height: auto;
-    margin-bottom: 300px;
-     
-}
+
 
 header{
     text-align: center;
@@ -57,14 +52,15 @@ header .logo{
     color: slategrey;
     opacity: 0.5;
     float: left;
-    padding-left: 55px;
+    padding-left: 40px;
     padding-right: 10px;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 9px;
 }
 
-header span{
-    font-size: 22px;
+header .logo span{
+    font-size: 21px;
+    
 }
 
 .nav-toggle{                  /*this is the <input> checkbox*/
@@ -218,38 +214,3 @@ div.gallery {
     }
 }
 
-@media (max-width: 958px){
-    #home{
-        width: 100%;
-        height: auto;
-        margin-bottom: 150px;
-    }
-}
-
-@media (max-width: 580px){
-    #home{
-        width: 100%;
-        height: 50%;
-        margin-bottom: 65px;
-    }
-    header span{
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 405px){
-    #home{
-        width: 100%;
-        height: 50%;
-        margin-bottom: 275px;
-    }
-}
-
-@media (max-width: 280px){
-    #home{
-        width: 100%;
-        height: 25%;
-        margin-bottom: 15px;
-    }
-    
-}
