@@ -330,8 +330,14 @@ div.gallery {
     padding-left: 13px;   
 }
 
+#about span{
+    font-size: 5px;
+}
+
+
 #about span a{
     text-decoration: none;
+    font-size: 5px;
 }/*END OF ABOUT SECTION*/
 
 /*CONTACT SECTION*/
@@ -349,8 +355,6 @@ div.gallery {
     text-align: center;
     
 }
-
-
 
 .contact a:hover{
     background: beige;
@@ -372,10 +376,14 @@ div.gallery {
     padding-left: 15px;
     padding-right: 15px;
     font-weight: bold;
-}
+}/*END OF CONTACT SECTION*/
 
-
-/*END OF CONTACT SECTION*/
+/*FOOTER SECTION*/
+.footer p{
+    text-align: center;
+    color: slategrey;
+    font-weight: bold;
+}/*END OF FOOTER SECTION*/
 
 
 
