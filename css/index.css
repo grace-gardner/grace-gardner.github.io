@@ -203,14 +203,14 @@ nav a:hover{
     height: 215px;
 }
 
-.empty-div{
+/*.empty-div{
     width: 100%;
     height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 #empty-div p{
     text-align: center;
@@ -307,7 +307,6 @@ div.gallery {
 }
 
 .about p{
-    display: block;
     text-align: center;
     font-size: 13px;
     color: white;
