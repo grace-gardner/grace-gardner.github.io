@@ -46,7 +46,7 @@ h2{
 /*navigation styles start here*/
 header{
     text-align: center;
-    position: fixed;
+    position: absolute;
     z-index: 999;
     width: 100%;
 }
@@ -217,29 +217,12 @@ nav a:hover{
     margin-top: 50px;
     color: slategrey;
     font-size: 18px;
+    padding-top: 5px;
 }
 
-.empty-div button{
-    text-align: center;
-    text-decoration: none;
-    background-color: transparent;
-    border: 1px solid slategrey;
-    border-radius: 5px;
-    width: 90px;
-    margin-left: auto;
-    margin-right: auto; 
-}
 
-.empty-div button:hover{
-    background: wheat;
-    opacity: 0.6;
-}
 
-.empty-div button a{
-    text-align: center;
-    text-decoration: none;
-    color: slategrey;
-}
+
 
 
 /*END OF EMPTY DIV 1*/
@@ -376,7 +359,26 @@ div.gallery {
     padding-left: 15px;
     padding-right: 15px;
     font-weight: bold;
-}/*END OF CONTACT SECTION*/
+}
+
+.arrow-up{
+    text-align: center;
+}
+
+.arrow-up a{
+    text-decoration: none;
+    color: rgb(161, 161, 14);
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 10px;
+}
+.arrow-up i{
+    padding-right: 5px;
+}
+
+
+
+/*END OF CONTACT SECTION*/
 
 /*FOOTER SECTION*/
 .footer p{
