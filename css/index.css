@@ -271,6 +271,7 @@ div.gallery {
     .responsive {
       width: 100%;
     }
+    
   }
   
   .clearfix:after {
@@ -286,12 +287,14 @@ div.gallery {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
+    background-color: white;
     background-image: url(../img/newspaper.jpg);
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: multiply;
+    border: 1px solid slategrey;
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 1);;
     
 
 }
@@ -310,6 +313,7 @@ div.gallery {
     text-align: center;
     font-size: 13px;
     color: white;
+    font-weight: bold;
     padding-left: 13px;   
 }
 
