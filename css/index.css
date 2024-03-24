@@ -24,7 +24,7 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     max-width: 1690px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 h1{
@@ -49,6 +49,8 @@ header{
     position: absolute;
     z-index: 999;
     width: 100%;
+    
+    
 }
 
 header .logo{
@@ -156,7 +158,7 @@ nav a:hover{
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 6s slider;
+    animation: /*6s slider;*/
     
 }
 #slider figure img{
@@ -201,6 +203,9 @@ nav a:hover{
 #empty-div .wrapper{
     width: 100%;
     height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*.empty-div{
@@ -214,17 +219,11 @@ nav a:hover{
 
 #empty-div p{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     color: slategrey;
     font-size: 18px;
-    padding-top: 5px;
+    
 }
-
-
-
-
-
-
 /*END OF EMPTY DIV 1*/
 
 
@@ -294,7 +293,7 @@ div.gallery {
     background-attachment: fixed;
     background-blend-mode: multiply;
     border: 1px solid slategrey;
-    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 1);;
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 1);
     
 
 }
