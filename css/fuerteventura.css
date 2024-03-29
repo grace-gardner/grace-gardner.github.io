@@ -555,8 +555,6 @@ div.gallery {
   .container2 img{
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
     border: 1px solid black;
 }
 
@@ -600,8 +598,6 @@ div.gallery {
         height: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding-right: 10px;
-        padding-left: 10px;
         border: 1px solid black;
     }
 
@@ -626,8 +622,6 @@ div.gallery {
         height: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding-right: 10px;
-        padding-left: 10px;
         border: 1px solid black;
     }
 
