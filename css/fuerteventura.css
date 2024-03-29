@@ -258,8 +258,8 @@ video{
 }
 
 .statement p{
-    max-width: 522px;
-    font-size: 35px;
+    max-width: 665px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
@@ -287,7 +287,7 @@ video{
     color: white;
 }
 
-@media (min-width: 1629px){
+@media (max-width: 1629px){
     .statement p{
         font-size: 25px;
         font-weight: bold;
@@ -298,13 +298,15 @@ video{
     }
 }
 
-@media (max-width: 629px){
+@media (max-width: 695px){
     .statement p{
         font-size: 15px;
         font-weight: bold;
         text-align: center;
         font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
         margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
         text-transform: lowercase, capitalize;
     }
     .statement a{
