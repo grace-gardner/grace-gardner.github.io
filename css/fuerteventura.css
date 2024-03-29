@@ -561,8 +561,8 @@ div.gallery {
   .container2 img{
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 10px;
+    
 }
 
 
@@ -605,8 +605,8 @@ div.gallery {
         height: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        border: 1px solid black;
-        border-radius: 50%;
+        border-radius: 10px;
+        
     }
 
     
@@ -630,8 +630,7 @@ div.gallery {
         height: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        border: 1px solid black;
-        border-radius: 50%;
+        border-radius: 10px;
     }
 
     .container2 p:nth-child(1){
