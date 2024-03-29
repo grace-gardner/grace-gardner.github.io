@@ -12,6 +12,7 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 .container{
     width: 100%;
     height: 100%;  
+    
 }
 
 .wrapper{
@@ -78,7 +79,7 @@ header .logo span{
 .nav-toggle-label span::before,
 .nav-toggle-label span::after{
     display: block;
-    background: black;
+    background: rgb(244, 205, 51);
     height: 2px;
     width: 4em;
     border-radius: 2px;
@@ -130,7 +131,7 @@ nav a{
 }
 
 nav a:hover{
-    color: white;
+    color: rgb(244, 205, 51);
     text-decoration: none;
 }
 
@@ -157,6 +158,7 @@ nav a:hover{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 @media (max-width: 445px){
@@ -252,6 +254,7 @@ video{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .statement p{
@@ -336,6 +339,7 @@ video{
     background-position: center;
     background-blend-mode: multiply;
     background-attachment: fixed;
+    overflow: hidden;
 }
 /*END OF EMPTY DIV*/
 
@@ -367,6 +371,7 @@ video{
     background-position: center;
     background-blend-mode: multiply;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 
@@ -402,6 +407,7 @@ video{
     display: block;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -450,6 +456,7 @@ video{
     background-position: center;
     background-blend-mode: multiply;
     background-attachment: fixed;
+    overflow: hidden;
     
 }
 
@@ -527,6 +534,7 @@ div.gallery {
     display: block;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 
 
@@ -541,6 +549,7 @@ div.gallery {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 
   .container2 img{
@@ -662,64 +671,3 @@ div.gallery {
     
 }
 
-.container3{
-    max-width: 1140px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: beige;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-container{
-    min-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 545px;
-    border: 1px solid black;
-    display: inline-table;
-    flex-direction: column;
-    
-    
-}
-
-.img-container a{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
-}
-
-.img-container span{
-    background: transparent;
-    text-align: center;
-    width: 60%;
-    border: 1px solid white;
-    margin-top: 55px;
-    margin-bottom: 25px;
-    margin-left: 55px;
-    margin-right: 25px;
-    position: relative;
-    cursor: pointer;
-}
-
-.img-container a:nth-child(1){
-    background-image: url(../img/amares.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img-container a:nth-child(2){
-    background-image: url(../img/el_patio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
