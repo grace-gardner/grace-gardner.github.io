@@ -532,7 +532,7 @@ div.gallery {
   .sports-bars{
     width: 100%;
     height: auto;
-    background-color: seashell;
+    background-color: beige;
     background-image: url(../img/fh5.png);
     opacity: 1;
     background-repeat: no-repeat;
@@ -544,6 +544,12 @@ div.gallery {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
+  }
+
+  .sports-bars p, a, h3{
+    font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
+
   }
 
   .sports-bars span{
