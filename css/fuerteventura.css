@@ -243,7 +243,7 @@ video{
 .statement{
     width: 100%;
     height: auto;
-    background-color: seashell;
+    background-color: beige;
     background-image: url(../img/fh5.png);
     opacity: 1;
     background-repeat: no-repeat;
@@ -402,7 +402,7 @@ video{
     width: 100%;
     height: auto;
     background-color: white;
-    background-image: url(../img/collage1.jpg);
+    background-image: url(../img/pinboard2.png);
     opacity: 1;
     background-repeat: no-repeat;
     background-size: contain;
@@ -422,6 +422,7 @@ video{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
     color: chocolate;
@@ -429,6 +430,7 @@ video{
 
 .content p{
     text-align: center;
+    font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
     color: chocolate;
@@ -439,6 +441,7 @@ video{
 @media (max-width: 467px){
     .content p{
         text-align: center;
+        font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
         font-size: 10px;
         font-weight: bold;
         color: chocolate;
