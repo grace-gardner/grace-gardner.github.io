@@ -451,13 +451,13 @@ video{
     width: 100%;
     height: auto;
     background-color: white;
-    background-image: url(../img/pinboard2.png);
+    background-image: url(../img/background2.png);
     opacity: 1;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     background-blend-mode: multiply;
-    background-attachment: fixed; /**/
+    background-attachment: fixed;
     display: block;
     justify-content: center;
     align-items: center;
@@ -466,6 +466,10 @@ video{
 
 
 .content h2{
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -588,7 +592,7 @@ div.gallery {
   .sports-bars{
     width: 100%;
     height: auto;
-    background-color: beige;
+    background-color: white;
     background-image: url(../img/fh5.png);
     opacity: 1;
     background-repeat: no-repeat;
