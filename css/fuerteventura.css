@@ -243,7 +243,7 @@ video{
 .statement{
     width: 100%;
     height: auto;
-    background-color: #c7c7b7;
+    background-color: seashell;
     background-image: url(../img/fh5.png);
     opacity: 1;
     background-repeat: no-repeat;
@@ -402,7 +402,7 @@ video{
     width: 100%;
     height: auto;
     background-color: white;
-    background-image: url(../img/collage1.jpg);
+    background-image: url(../img/pinboard.png);
     opacity: 1;
     background-repeat: no-repeat;
     background-size: contain;
@@ -528,7 +528,7 @@ div.gallery {
   .sports-bars{
     width: 100%;
     height: auto;
-    background-color: #dbdbcf;
+    background-color: seashell;
     background-image: url(../img/fh5.png);
     opacity: 1;
     background-repeat: no-repeat;
