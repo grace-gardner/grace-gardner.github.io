@@ -402,7 +402,7 @@ video{
     width: 100%;
     height: auto;
     background-color: white;
-    background-image: url(../img/pinboard.png);
+    background-image: url(../img/collage1.jpg);
     opacity: 1;
     background-repeat: no-repeat;
     background-size: contain;
@@ -413,6 +413,7 @@ video{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
 
 }
 
