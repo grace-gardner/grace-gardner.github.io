@@ -244,7 +244,7 @@ video{
     width: 100%;
     height: auto;
     background-color: white;
-    background-image: url(../img/background1.png);
+    background-image: url();
     opacity: 1;
     background-repeat: no-repeat;
     background-size: contain;
@@ -263,7 +263,7 @@ video{
     opacity: 1;
     border: 4px double rgb(240, 173, 49);
     background-color: none;
-    background-image: url();
+    background-image: url(../img/background1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -279,7 +279,7 @@ video{
         opacity: 1;
         border: 4px double rgb(240, 173, 49);
         background-color: none;
-        background-image: url();
+        background-image: url(../img/background1.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -295,7 +295,7 @@ video{
         opacity: 1;
         border: 4px double rgb(240, 173, 49);
         background-color: none;
-        background-image: url();
+        background-image: url(../img/background1.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -448,7 +448,7 @@ video{
 
 /*CONTENT SECTION*/
 .content{
-    width: 100%;
+    /*width: 100%;
     height: auto;
     background-color: white;
     background-image: url(../img/pinboard4.png);
@@ -461,9 +461,71 @@ video{
     display: block;
     justify-content: center;
     align-items: center;
+    overflow: hidden;*/
+
+    width: 100%;
+    height: auto;
+    background-color: white;
+    background-image: url();
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
+
+.content-box{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    border: 4px double rgb(240, 173, 49);
+    background-color: none;
+    background-image: url(../img/pinboard4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: ;
+}
+
+
+@media (max-width: 569px){
+    .content-box{
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        border: 4px double rgb(240, 173, 49);
+        background-color: none;
+        background-image: url(../img/pinboard4.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-attachment: ;
+    }
+}
+
+@media (max-width: 375px){
+    .content-box{
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        border: 4px double rgb(240, 173, 49);
+        background-color: none;
+        background-image: url(../img/pinboard4.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-attachment: ;
+    }
+}
 
 /**/
 
