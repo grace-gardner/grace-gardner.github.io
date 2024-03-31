@@ -290,7 +290,7 @@ video{
 
 @media (max-width: 375px){
     .statement-box{
-        width: 245px;
+        width: 100%;
         height: auto;
         opacity: 1;
         border: 4px double rgb(240, 173, 49);
