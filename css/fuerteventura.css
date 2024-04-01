@@ -80,7 +80,7 @@ header .logo span{
 .nav-toggle-label span::before,
 .nav-toggle-label span::after{
     display: block;
-    background: rgb(244, 205, 51);
+    background: rgb(211, 186, 161); /*rgb(211, 186, 161)*/ /*rgb(244, 205, 51)*/
     height: 2px;
     width: 4em;
     border-radius: 2px;
@@ -676,7 +676,7 @@ div.gallery {
   .sports-bars{
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: rgb(211, 186, 161);
     background-image: url(../img);
     opacity: 1;
     background-repeat: no-repeat;
@@ -717,7 +717,8 @@ div.gallery {
   .container2 img{
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px double rgb(240, 173, 49);
+    border: 4px double rgb(211, 186, 161);
+    box-shadow: 0 0 10px white;
     
 }
 
