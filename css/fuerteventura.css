@@ -652,15 +652,15 @@ div.gallery {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: whitesmoke;
-    background-image: url(../img/background6.png);
+    background-color: rgb(211, 186, 161);
+    /*background-image: url(../img/background6.png);
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    background-attachment: none; /**/  
-    border: 5px double rgb(211, 186, 161);
+    background-attachment: none;   
+    border: 5px double rgb(211, 186, 161);*/
   }
 
   .sports-bars p, a, h3{
