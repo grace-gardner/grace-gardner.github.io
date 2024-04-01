@@ -248,12 +248,12 @@ video{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color:whitesmoke; /*rgb(211, 186, 161)*/
-    background-image: url(../img/background6.png);
+    background-color:white; /*rgb(211, 186, 161)*/
+    background-image: url(../img/Ff_logo.png);
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-blend-mode: multiply;
     border: 5px double rgb(211, 186, 161);
     
@@ -278,6 +278,13 @@ video{
     .statement-box{
         width: 100%;
         height: auto;   
+        background-color:white; /*rgb(211, 186, 161)*/
+        background-image: url(../img/Ff_logo.png);
+        opacity: 0.9;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-blend-mode: multiply;
     }
 }
 
