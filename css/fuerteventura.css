@@ -687,7 +687,7 @@ div.gallery {
 
   .sports-bars span{
     color: rgb(240, 173, 49);
-    font-size: 22px;
+    font-size: 18px;
   }
 
   /**/
@@ -755,7 +755,7 @@ div.gallery {
 
 
     .container2 img{
-        min-width: 500px;
+        min-width: 495px;
         height: auto;
         margin-top: 10px;
         margin-bottom: 10px;
