@@ -688,6 +688,9 @@ div.gallery {
   .sports-bars span{
     color: rgb(211, 186, 161);
     font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 2px;
   }
 
   /**/
