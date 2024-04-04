@@ -539,7 +539,8 @@ video{
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
-    color: chocolate;
+    color: black;
+    text-shadow: 0 0 5px rgb(240, 173, 49);
 }
 
 .content p{
@@ -547,7 +548,8 @@ video{
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
-    color: chocolate;
+    color: black;
+    text-shadow: 0 0 5px rgb(240, 173, 49);
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -561,14 +563,16 @@ video{
         font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
         font-size: 25px;
         font-weight: bold;
-        color: chocolate;
+        color: black;
+        text-shadow: 0 0 5px rgb(240, 173, 49);
     }
     .content p{
         text-align: center;
         font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
         font-size: 18px;
         font-weight: bold;
-        color: chocolate;
+        color: black;
+        text-shadow: 0 0 5px rgb(240, 173, 49);
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -653,6 +657,9 @@ div.gallery {
     clear: both;
   }/*END OF DINING SECTION*/
 
+
+  /*SPORTS BARS*/
+
   .sports-bars{
     width: 100%;
     height: auto;
@@ -660,8 +667,8 @@ div.gallery {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: rgb(245, 241, 240); /*rgb(211, 186, 161)*/
-    background-image: url(../img/);
+    background-color: white; /*rgb(211, 186, 161) rgb(245, 241, 240)*/
+    background-image: url(../img/border2.png);
     opacity: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -673,6 +680,8 @@ div.gallery {
 
   .sports-bars p, a, h3{
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 0 0 5px rgb(240, 173, 49);
 
   }
 
@@ -692,6 +701,7 @@ div.gallery {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
   }
 
   .container2 img{
@@ -699,6 +709,7 @@ div.gallery {
     margin-bottom: 10px;
     border: 4px double rgb(211, 186, 161);
     box-shadow: 0 0 10px white;
+    
     
 }
 
@@ -710,8 +721,10 @@ div.gallery {
     padding-left: 5px;
     font-size: 15px;
     font-family: 'Cinzel', sans-serif;
-    color: chocolate;
+    color: black;
+    text-shadow: 0 0 5px rgb(240, 173, 49);
     animation: slideMe 12s ease-in;
+    
 }
 
 
@@ -736,6 +749,7 @@ div.gallery {
         display: flex;
         justify-content: center;
         align-items: center;
+        
       }
 
 
@@ -764,6 +778,7 @@ div.gallery {
         display: block;
         justify-content: center;
         align-items: center;
+        
       }
 
 
@@ -814,5 +829,5 @@ div.gallery {
     }
 
     
-}
+}/*END OF SPORTS BARS*/
 
