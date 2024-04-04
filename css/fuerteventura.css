@@ -149,7 +149,7 @@ nav a:hover{
     width: 100%;
     height: 100vh;
     /*background-color: rgb(205, 202, 202);*/
-    /*background-image: url(../img/Fh5.png);*/
+    background-image: url(../img/border2.png);
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,10 +375,10 @@ video{
     width: 100%;
     height: 25vh;
     background-color: white;
-    background-image: url(../img/);
+    background-image: url(../img/border2.png);
     opacity: 0.5;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
     background-attachment: fixed;
@@ -392,10 +392,10 @@ video{
         width: 100%;
         height: 15vh;
         background-color: white ;
-        background-image: url(../img/);
+        background-image: url(../img/border2.png);
         opacity: 0.5;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-blend-mode: multiply;
         background-attachment: fixed;
@@ -406,10 +406,10 @@ video{
     height: 25vh;
     background-color: white;
     /*border: 5px solid beige;*/
-    background-image: url(../img/);
+    background-image: url(../img/border2.png);
     opacity: 0.9;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
     background-attachment: fixed;
@@ -424,10 +424,10 @@ video{
         height: 15vh;
         background-color: white;
         /*border: 5px solid beige;*/
-        background-image: url(../img/);
+        background-image: url(../img/border2.png);
         opacity: 0.9;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-blend-mode: multiply;
         background-attachment: fixed;
