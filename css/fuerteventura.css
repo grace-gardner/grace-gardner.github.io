@@ -248,9 +248,6 @@ video{
         
     }
 }
-
-
-
 /*END OF INTRO SECTION*/
 
 
@@ -269,13 +266,14 @@ video{
     background-size: cover;
     background-position: bottom;
     background-blend-mode: multiply;
-    border: 5px double rgb(211, 186, 161);
+    /*border: 5px double rgb(211, 186, 161);*/
     
 }
 
 .statement-box{
     width: 545px;
     height: auto;
+    
     
     
 }
@@ -305,13 +303,14 @@ video{
 
 .statement p{
     max-width: 665px;
+    margin-bottom: 50px;
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
-    margin-bottom: 50px;
     text-transform: lowercase, capitalize;
-    text-shadow: 0 0 10px rgb(240, 173, 49);
+    text-align: center;
+    text-shadow: 0 0 2px rgb(240, 173, 49);
+    
 }
 
 
@@ -680,7 +679,7 @@ div.gallery {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: rgb(245, 241, 240); /*rgb(211, 186, 161) rgb(245, 241, 240)*/
+    background-color: white; /*rgb(211, 186, 161) rgb(245, 241, 240)*/
     background-image: url(../img);
     opacity: 1;
     background-repeat: no-repeat;
@@ -688,7 +687,7 @@ div.gallery {
     background-position: center;
     background-blend-mode: multiply;
     background-attachment: none;   
-    border: 5px double rgb(211, 186, 161);
+    /*border: 5px double rgb(211, 186, 161);*/
   }
 
   .sports-bars p, a, h3{
@@ -872,6 +871,7 @@ div.gallery {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background-attachment: fixed;
     background-blend-mode: multiply;
     border: 5px double rgb(211, 186, 161);
 }
@@ -888,6 +888,7 @@ div.gallery {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         background-blend-mode: multiply;
         border: 5px double rgb(211, 186, 161);
     }
@@ -904,6 +905,7 @@ div.gallery {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+        background-attachment: fixed;
         background-blend-mode: multiply;
         border: 5px double rgb(211, 186, 161);
     }
