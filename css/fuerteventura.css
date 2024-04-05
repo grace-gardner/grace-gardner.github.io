@@ -853,31 +853,8 @@ div.gallery {
 /*ABOUT SECTION*/
 
 .content2{
-    /*width: 100%;
-    height: auto;
-    background-color: white;
-    background-image: url(../img/pinboard4.png);
-    opacity: 1;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-blend-mode: multiply;
-    background-attachment: ;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;*/
-
     width: 100%;
     height: auto;
-    /*background-color: rgb(250, 226, 195);*/
-    background-image: url(../img/bio2.png);
-    opacity: 1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;
-    background-attachment: scroll;
     border: 5px double rgb(211, 186, 161);
     display: flex;
     justify-content: center;
@@ -890,48 +867,44 @@ div.gallery {
     width: 100%;
     height: auto;
     opacity: 1;
-    /*border: 4px double rgb(240, 173, 49);*/
     background-color: rgb(245, 241, 240);
-    background-image: url(../img/bio2.png);
+    background-image: url(../img/bio3.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     background-blend-mode: multiply;
-    background-attachment: fixed;
     border: 5px double rgb(211, 186, 161);
 }
 
 
-@media (max-width: 569px){
+@media (max-width: 863px){ /*569px*/
     .content-box2{
-        width: 100%;
+        max-width: 863px;
         height: auto;
         opacity: 1;
         /*border: 4px double rgb(240, 173, 49);*/
         background-color: rgb(245, 241, 240);
-        background-image: url(../img/bio2.png);
+        background-image: url(../img/bio3.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-blend-mode: multiply;
-        background-attachment: fixed;
         border: 5px double rgb(211, 186, 161);
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 599px){ /*375px*/
     .content-box2{
         width: 100%;
         height: auto;
         opacity: 1;
         /*border: 4px double rgb(240, 173, 49);*/
         background-color: rgb(245, 241, 240);
-        background-image: url(../img/bio2.png);
+        background-image: url(../img/bio3.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
         background-blend-mode: multiply;
-        background-attachment: fixed;
         border: 5px double rgb(211, 186, 161);
     }
 }
@@ -942,48 +915,52 @@ div.gallery {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
     color: black;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    text-shadow: 0 0 2px rgb(240, 173, 49);
 }
 
 .content2 p{
     text-align: center;
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    text-shadow: 0 0 2px rgb(240, 173, 49);
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
-@media (max-width: 467px){
+@media (max-width: 467px){ /*472px*/
     .content2 h2{
         padding-top: 50px;
-        padding-bottom: 30px;
-        text-align: end;
+        padding-bottom: 150px;
+        text-align: center;
         font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
         font-size: 25px;
         font-weight: bold;
         color: black;
-        text-shadow: 0 0 5px rgb(240, 173, 49);
+        text-shadow: 0 0 2px rgb(240, 173, 49);
     }
     .content2 p{
-        text-align: end;
+        text-align: center;
         font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         color: black;
-        text-shadow: 0 0 5px rgb(240, 173, 49);
+        text-shadow: 0 0 2px rgb(240, 173, 49);
         padding-top: 0px;
         padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 /*END OF ABOUT SECTION*/
