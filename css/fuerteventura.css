@@ -343,7 +343,7 @@ video{
         font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
         margin-bottom: 50px;
         text-transform: lowercase, capitalize;
-        text-shadow: 0 0 10px rgb(240, 173, 49);
+        text-shadow: 0 0 2px rgb(240, 173, 49);
     }
 }
 
@@ -357,7 +357,7 @@ video{
         padding-left: 25px;
         padding-right: 25px;
         text-transform: lowercase, capitalize;
-        text-shadow: 0 0 10px rgb(240, 173, 49);
+        text-shadow: 0 0 2px rgb(240, 173, 49);
     }
     .statement a{
         text-decoration: none;
@@ -472,7 +472,6 @@ video{
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    background-attachment: ;
     border: 5px double rgb(211, 186, 161);
     display: flex;
     justify-content: center;
@@ -552,7 +551,7 @@ video{
     font-size: 25px;
     font-weight: bold;
     color: black;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    text-shadow: 0 0 2px rgb(240, 173, 49);
 }
 
 .content p{
@@ -561,7 +560,7 @@ video{
     font-size: 25px;
     font-weight: bold;
     color: black;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    text-shadow: 0 0 2px rgb(240, 173, 49);
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -576,7 +575,7 @@ video{
         font-size: 25px;
         font-weight: bold;
         color: black;
-        text-shadow: 0 0 5px rgb(240, 173, 49);
+        text-shadow: 0 0 2px rgb(240, 173, 49);
     }
     .content p{
         text-align: center;
@@ -584,7 +583,7 @@ video{
         font-size: 18px;
         font-weight: bold;
         color: black;
-        text-shadow: 0 0 5px rgb(240, 173, 49);
+        text-shadow: 0 0 2px rgb(240, 173, 49);
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -598,8 +597,8 @@ video{
     max-width: 100%;
     height: auto;
     background-color: beige;
-    background-image: url(../img/background1.png);
-    opacity: 0.5;
+    background-image: url(../img/);
+    opacity: 1;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -693,7 +692,7 @@ div.gallery {
   .sports-bars p, a, h3{
     font-family: 'Shadows Into Light', 'Times New Roman', Times, serif;
     color: black;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    text-shadow: 0 0 2px rgb(240, 173, 49);
 
   }
 
@@ -737,7 +736,7 @@ div.gallery {
     font-size: 15px;
     font-family: 'Cinzel', sans-serif;
     color: black;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    text-shadow: 0 0 2px rgb(240, 173, 49);
     animation: slideMe 12s ease-in;
     
 }
@@ -852,18 +851,19 @@ div.gallery {
 /*ABOUT SECTION*/
 
 .content2{
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border: 5px double rgb(211, 186, 161);
+    /*border: 5px double rgb(211, 186, 161);*/
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
 }
 
 
 .content-box2{
-    width: 100%;
+    max-width: 995px;
     height: auto;
     opacity: 1;
     background-color: rgb(245, 241, 240);
@@ -871,8 +871,8 @@ div.gallery {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-attachment: fixed;
     background-blend-mode: multiply;
+    background-attachment: fixed;
     border: 5px double rgb(211, 186, 161);
 }
 
@@ -888,8 +888,8 @@ div.gallery {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
         background-blend-mode: multiply;
+        background-attachment: fixed;
         border: 5px double rgb(211, 186, 161);
     }
 }
@@ -905,8 +905,8 @@ div.gallery {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        background-attachment: fixed;
         background-blend-mode: multiply;
+        background-attachment: fixed;
         border: 5px double rgb(211, 186, 161);
     }
 }
@@ -941,7 +941,7 @@ div.gallery {
 }
 
 
-@media (max-width: 467px){ /*472px*/
+@media (max-width: 469px){ /*472px*/
     .content2 h2{
         padding-top: 50px;
         padding-bottom: 150px;
@@ -965,4 +965,60 @@ div.gallery {
         padding-right: 10px;
     }
 }
+
+
+
+#slider{
+    overflow: hidden; 
+    opacity: 0.5;
+    z-index: -1;
+    position: absolute;
+}
+
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 6s slider infinite;
+    
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
 /*END OF ABOUT SECTION*/
