@@ -237,12 +237,34 @@ nav a:hover{
 /*PLACES*/
 
 .places{
-    max-width: 550px;
+    width: 100%;
     height: auto;
     background-color: rgb(243 234 224);
+    background-image: url(../img/collage1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media (max-width: 653px){
+    .places{
+        width: 100%;
+        height: auto;
+        background-color: rgb(243 234 224);
+    }
 }
 
 .places h2{
+    font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    font-weight: bold;
+}
+.places p{
     font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
     font-size: 16px;
     padding-left: 10px;
