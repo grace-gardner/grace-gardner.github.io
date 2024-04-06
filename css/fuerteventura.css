@@ -4,7 +4,6 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
@@ -973,6 +972,7 @@ div.gallery {
     opacity: 0.5;
     z-index: -1;
     position: absolute;
+    
 }
 
 
@@ -987,6 +987,7 @@ div.gallery {
 #slider figure img{
     float: left;
     width: 20%;
+    
     
 }
 
