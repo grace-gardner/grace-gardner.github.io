@@ -23,9 +23,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Grey+Qo&family=Over+the+Rainbow&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <!--NAVIGATION BAR-->
     <header>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
@@ -40,15 +43,61 @@
             <span></span>
         </label>
     </header>
+    <!--END OF NAVIGATION BAR-->
 
-    <div class="wrapper">
+
+    <!--SLIDESHOW-->
+    <div class="wrapper" id="slideshow">
         <div class="slideshow"></div>
         <div class="content">
-            <h1>Fuerteventura Filipina</h1>
-            <h2>Travel Blog</h2>
+            <h1>Fuerteventura Filipina <span>Travel Blog</span></h1>
+        </div>
+    </div>
+    <!--END OF SLIDESHOW-->
+
+
+    <div class="empty-div"></div>
+
+    <!--STATEMENT BOX-->
+    <div class="wrapper" id="statement">
+        <div class="statement">
+            <p>Welcome to Fuerteventura Filipina<br>Take a journey with me in this blog <br> as I travel around the paradise<br>Canarian island of Fuerteventura.<br>
+                <br>
+            <a href="#">Explore With Me</a><br>
+            </p>
+        </div>
+    </div>
+    <!--END OF STATEMENT BOX-->
+
+    <div class="empty-div"></div>
+
+    <div class="wrapper" id="places">
+        <div class="places">
+            <h2 data-aos="slide-up"  data-aos-once="false" data-aos-duration="1000">Places to visit</h2><br>
+            <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">Caleta De Fuste</p><br>
+            <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="2000">Corralejo</p><br>
+            <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="2500">Gran Tarajal</p><br>
+            <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="3000">and loads more</p><br>
         </div>
     </div>
     
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
