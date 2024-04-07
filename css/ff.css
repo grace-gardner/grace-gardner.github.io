@@ -399,7 +399,7 @@ nav a:hover{
     padding-left: 7px;
     padding-right: 7px;
     margin-top: 50px;
-    text-shadow: 0 0 1px rgb(240, 173, 49);
+    text-shadow: 0 0 1px rgb(240, 173, 49); /*rgb(240, 173, 49)*/
 }
 .dining a:hover{
     color: white;
