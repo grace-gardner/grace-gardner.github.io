@@ -473,7 +473,7 @@ nav a:hover{
 @media (max-width: 653px){
     .sports-bars{
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-color: rgb(243 234 224);
     }
 }
