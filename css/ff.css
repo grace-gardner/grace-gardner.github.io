@@ -24,9 +24,24 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     max-width: 1890px;
     margin-left: auto;
     margin-right: auto;
-    height: 25vh;
+    height: 15vh;
     background-color: rgb(243 234 224);
 }
+
+.empty-div2{
+    max-width: 1890px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    background-color: rgb(243 234 224);
+    opacity: 0.8;
+    background: url(../img/borderline2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+}
+
 
 
 
@@ -291,7 +306,7 @@ nav a:hover{
     align-items: center;
     position: absolute;
     z-index: 999;
-    border: 5px solid rgb(158, 122, 87);
+    /*border: 5px solid rgb(158, 122, 87);*/
     
     
     
@@ -310,7 +325,7 @@ nav a:hover{
         display: flex;
         justify-content: center;
         align-items: center;  
-        border: 1px solid rgb(158, 122, 87);
+        /*border: 1px solid rgb(158, 122, 87);*/
     }
 }
 
@@ -457,6 +472,13 @@ nav a:hover{
     }
 } /*END OF DINING*/
 
+
+@media (max-width: 2000px){
+    #slider{
+        overflow: hidden;
+        max-height: 959px;
+        }
+}
 
 /*SPORTS BARS*/
 .sports-bars{
