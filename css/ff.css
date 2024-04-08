@@ -549,10 +549,10 @@ nav a:hover{
     
 }
 
-@media (max-width: 653px){
+@media (max-width: 652px){
     .live-musiclist{
         width: 100%;
-        min-height: 100vh;
+        height: auto;
         background-color: rgb(243 234 224);
     }
 }
