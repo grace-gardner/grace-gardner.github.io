@@ -623,6 +623,12 @@ nav a:hover{
     margin-bottom: 50px;
 }
 
+.live-musiclist div:nth-child(7){
+    transform: rotate(-20deg);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 .live-musiclist img{
     width: 110px;
     height: auto;
