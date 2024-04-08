@@ -557,6 +557,15 @@ nav a:hover{
     }
 }
 
+@media (orientation:landscape){
+    .live-musiclist{
+        width: 100%;
+        min-height: 995px;
+        background-color: rgb(243 234 224);
+    }
+}
+
+
 .live-musiclist h2{
     font-family: 'Volkhov', Times, serif;   
     font-size: 16px;
