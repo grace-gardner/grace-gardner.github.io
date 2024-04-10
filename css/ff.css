@@ -22,7 +22,7 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 
 
 .empty-div1{
-    max-width: 1890px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     height: 15vh;
@@ -30,10 +30,10 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 }
 
 .empty-div2{
-    max-width: 1890px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
-    height: 55px;
+    height: 15px;
     background-color: rgb(243 234 224);
     opacity: 0.8;
     background: url(../img/borderline2.png);
@@ -308,9 +308,6 @@ nav a:hover{
     position: absolute;
     z-index: 999;
     /*border: 5px solid rgb(158, 122, 87);*/
-    
-    
-    
 }
 
 @media (max-width:763px){/*653px*/
@@ -428,13 +425,18 @@ nav a:hover{
     overflow: hidden;
     min-height: 245px;
     max-height: 545px;
+    background: url(../img/Amares4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
     #slider figure{
         position: relative;
         width: 500%;
         margin: 0;
         left: 0;
-        animation: 10s slider ease-in infinite;
+        animation: 10s slider ease-in;
+        
     }
     #slider figure img{
         float: left;
@@ -473,15 +475,21 @@ nav a:hover{
     100%{
         left: -400%;
     }
-} /*END OF DINING*/
+} 
 
 
-@media (min-width: 2000px){
+@media (min-width: 660px){
     #slider{
         overflow: hidden;
         max-height: 545px;
         }
+
+        #slider figure img{
+            float: left;
+            width: 10%;
+        }
 }
+/*END OF DINING*/
 
 /*SPORTS BARS*/
 .sports-bars{
@@ -535,7 +543,7 @@ nav a:hover{
 
 
 /*LIVE MUSIC*/
-.live-music{
+.live-musicheader{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -543,7 +551,7 @@ nav a:hover{
     height: auto;
 }
 
-.live-music div{
+.live-musicheader div{
     font-family: 'Shadows Into Light';
     font-size: 25px;
     color: rgb(158, 122, 87);
@@ -557,7 +565,7 @@ nav a:hover{
     
 }
 
-.live-music h2{
+.live-musicheader h2{
     font-family: 'Volkhov', Times, serif;   
     font-size: 16px;
     /*padding-left: 10px;*/
