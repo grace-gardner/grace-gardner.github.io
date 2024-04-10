@@ -6,10 +6,11 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     box-sizing: border-box;
     font-size: 62.5%;
     scroll-behavior: smooth;
+    background-color: rgb(243 234 224);
 }
 
 .wrapper{
-    max-width: 1890px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden; 
@@ -389,6 +390,7 @@ nav a:hover{
     text-align: center;
     color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     font-weight: bold;
+    text-decoration: underline 5px white;
 }
 
 .dining p{
@@ -425,6 +427,7 @@ nav a:hover{
 #slider{
     overflow: hidden;
     min-height: 245px;
+    max-height: 545px;
     }
     #slider figure{
         position: relative;
@@ -473,10 +476,10 @@ nav a:hover{
 } /*END OF DINING*/
 
 
-@media (max-width: 2000px){
+@media (min-width: 2000px){
     #slider{
         overflow: hidden;
-        max-height: 959px;
+        max-height: 545px;
         }
 }
 
