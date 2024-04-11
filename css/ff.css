@@ -817,7 +817,8 @@ nav a:hover{
     text-align: center;
     color: rgb(158, 122, 87);         
     font-weight: bold;
-    text-decoration: underline 5px white;
+    text-decoration: underline 2.5px white;
+    
 }
 
 #section-3 img{
@@ -840,9 +841,13 @@ nav a:hover{
     font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 150px;
     text-align: center;
     color: rgb(158, 122, 87); 
 }
+
+
+
 /*End of Section-3*/
 #about {
     width: 150px;
@@ -853,7 +858,7 @@ nav a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    border: 0px solid rgb(158, 114, 69);
+    border: 1px solid rgb(158, 114, 69);
     transition: width 2s, height 4s;
 }
 
@@ -876,16 +881,26 @@ nav a:hover{
         height: 150px;
         background: rgb(243 234 224);
         background-image: url(../img/bio4.png);
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        border: 0px solid rgb(158, 114, 69);
+        border: 1px solid rgb(158, 114, 69);
         transition: width 2s, height 4s;
     }
 
     #about:hover {
         width: 100%;
         height: 545px;
+    }
+
+    #section-3 p{
+        font-size: 10px;
+        font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 250px;
+        text-align: center;
+        color: rgb(158, 122, 87); 
     }
 }
