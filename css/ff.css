@@ -510,7 +510,7 @@ nav a:hover{
 @media (max-width: 653px){
     .sports-bars{
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         background-color: rgb(243 234 224);
     }
 }
@@ -730,72 +730,6 @@ nav a:hover{
 
 
 
-/*.about{
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 15px;
-}
-
-
-.about img{
-    position: relative;
-    width: 200px;
-    height: auto;
-    opacity: 0.8;
-    border: 2px solid rgb(158, 114, 69);
-    border-radius: 9px;
-    transition: width 2s, height 2s;  
-}
-.about img:hover{
-    width: 100%;
-    height: 945px;
-}
-
-@media (max-width: 1000px){
-    .about img:hover{
-        width: 90%;
-        height: 325px;
-    }
-
-}
-
-@media (max-width: 400px){
-    .about img:hover{
-        width: 80%;
-        height: 245px;
-    }
-
-}
-
-@media (max-width: 300px){
-    .about img{
-        width: 150px;
-        height: auto;
-        border: 2px solid rgb(158, 114, 69);
-        border-radius: 9px;
-        transition: width 2s, height 2s;  
-    }
-
-    .about img:hover{
-        width: 90%;
-        height: 250px;
-    }
-
-}*/
-
-
-
 
 
 
@@ -852,8 +786,6 @@ nav a:hover{
     text-align: center;
     color: rgb(158, 122, 87); 
 }
-
-
 
 /*End of Section-3*/
 #about {
