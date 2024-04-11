@@ -605,7 +605,7 @@ nav a:hover{
 @media (orientation:landscape){
     .live-musiclist{
         width: 100%;
-        min-height: 995px;
+        /*min-height: 995px;*/
         background-color: rgb(243 234 224);
     }
 }
