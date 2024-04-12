@@ -269,29 +269,14 @@ nav a:hover{
         width: 100%;
         height: 100vh;
         background-color: rgb(243 234 224);
+        background-image: url(../img/mark_strand.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        /*background-attachment: ;*/
     }
 }
-
-.places h2{
-    font-family: 'Volkhov', Times, serif;   
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;
-    text-align: center;
-    color: rgb(158, 122, 87);         
-    font-weight: bold;
-    text-decoration: underline 5px white;
-}
-.places p{
-    font-family: 'Volkhov', Times, serif;   
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    color: rgb(158, 122, 87);         
-    font-weight: bold;
-}/*END OF PLACES*/
+/*END OF PLACES*/
 
 
 
