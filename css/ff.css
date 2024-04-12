@@ -281,6 +281,47 @@ nav a:hover{
 
 
 /*DINING*/
+
+.dining-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.dining-header div{
+    font-family: 'Shadows Into Light';
+    font-size: 25px;
+    color: rgb(158, 122, 87);
+    opacity: 0.8;
+    text-shadow: 0 0 17px rgb(247, 162, 6);
+    transform: rotate(-20deg);
+    position: absolute;
+    z-index: 999;
+    padding-right: 75px;
+    padding-bottom: 18px;
+    
+}
+
+.dining-header h2{
+    font-family: 'Volkhov', Times, serif;   
+    font-size: 16px;
+    /*padding-left: 10px;*/
+    padding-right: 60px;
+    text-align: center;
+    color: rgb(158, 122, 87);         
+    font-weight: bold;
+    text-decoration: underline 5px white;
+    margin-top: 50px;
+    padding-left: 65px;
+}
+
+
+
+
+
 .dining{
     width: 100%;
     height: 100vh;
@@ -315,7 +356,7 @@ nav a:hover{
     }
 }
 
-@media (max-width: 414px){
+@media (min-width: 740px){ /*414px*/
     .dining{
         width: 100%;
         height: 50vh;
@@ -330,21 +371,18 @@ nav a:hover{
         align-items: center;  
     }
 
-    .dining h2{
-        font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
-        font-size: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-        color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-        font-weight: bold;
+
+    .dining div{
+        max-height: 824px;
     }
 
     .dining p{
+
         font-size: 8px;
         font-family: 'Volkhov';
         padding-left: 10px;
         padding-right: 10px;
+        padding-top: 25px;
         text-align: center;
         color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
         font-weight: bold;
@@ -360,23 +398,13 @@ nav a:hover{
         width: 25px;
         padding-left: 7px;
         padding-right: 7px;
-        margin-top: 50px;
+        /*margin-top: 50px;*/
         text-shadow: 0 0 1px rgb(240, 173, 49);
         
     }
     
 }
 
-.dining h2{
-    font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-    font-weight: bold;
-    text-decoration: underline 5px white;
-}
 
 .dining p{
     font-size: 14px;
@@ -391,16 +419,17 @@ nav a:hover{
 
 .dining a{
     text-decoration: none;
-    font-family: 'Shadows Into Light';    /*!!!!!!!!!!!!!!!!!!!!LINK-FONT-FAMILY THEME!!!!!!!!!!!!!!!!*/
+    font-family: 'Shadows Into Light';    
     font-size: 14px;
     color: white;
     border: 1px solid white;
+    box-shadow: 0 0 9px rgb(158, 122, 87);
     border-radius: 5px;
     width: 25px;
     padding-left: 7px;
     padding-right: 7px;
     margin-top: 50px;
-    text-shadow: 0 0 1px rgb(240, 173, 49); /*rgb(240, 173, 49)*/
+    text-shadow: 0 0 5px rgb(240, 173, 49);
 }
 
 
@@ -477,7 +506,25 @@ nav a:hover{
             width: 10%;
         }
 }
+
+@media (max-width: 244px){
+    #slider{
+        overflow: hidden;
+        min-height: 545px;
+        
+        }
+
+        #slider figure img{
+            float: left;
+            width: 10%;
+        }
+}
+
+
+
 /*END OF DINING*/
+
+
 
 /*SPORTS BARS*/
 .sportsbar-header{
@@ -486,6 +533,7 @@ nav a:hover{
     align-items: center;
     width: 100%;
     height: auto;
+    margin-bottom: 25px;
 }
 
 .sportsbar-header div{
@@ -553,8 +601,7 @@ nav a:hover{
     text-align: center;
     color: rgb(158, 122, 87);         
     font-weight: bold;
-}
-/*END OF SPORTS BARS*/
+}/*END OF SPORTS BARS*/
 
 
 /*LIVE MUSIC*/
@@ -564,6 +611,7 @@ nav a:hover{
     align-items: center;
     width: 100%;
     height: auto;
+    margin-bottom: 25px;
 }
 
 .live-musicheader div{
@@ -736,11 +784,7 @@ nav a:hover{
 .live-musiclist span{
     opacity: 0;
     font-size: 25px;
-}
-/*END OF LIVE MUSIC*/
-
-
-
+}/*END OF LIVE MUSIC*/
 
 
 
@@ -790,7 +834,7 @@ nav a:hover{
 
 #section-3 p{
     font-size: 12px;
-    font-family: 'Volkhov', Times, serif;   /*!!!!!!!!!!!!!!!! STATEMENT-FONT-FAMILY THEME!!!!!!!!!!!!!!!*/
+    font-family: 'Volkhov', Times, serif;   
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 150px;
@@ -798,7 +842,7 @@ nav a:hover{
     color: rgb(158, 122, 87); 
 }
 
-/*End of Section-3*/
+
 #about {
     width: 150px;
     height: 150px;
@@ -854,4 +898,4 @@ nav a:hover{
         color: rgb(158, 122, 87); 
         font-weight: bold;
     }
-}
+}/*End of Section-3*/
