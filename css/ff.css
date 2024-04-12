@@ -10,30 +10,6 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 }
 
 
-@media (min-width: 230px){
-    .warning{
-        display: none;
-    }
-}
-
-@media (max-width:229px){
-    .warning{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        color: red;
-    }
-    .warning h1{
-        text-align: center;
-        font-size: 18px;
-        font-family: 'Poppins', sans-serif;
-        
-    }
-
-    .contents{
-        display: none;
-    }
-}
 
 .wrapper{
     max-width: 1500px;
@@ -925,3 +901,118 @@ nav a:hover{
         font-weight: bold;
     }
 }/*End of Section-3*/
+
+
+/*ADHOC*/
+
+
+
+
+
+
+
+
+
+/*END OF ADHOC*/
+
+.album{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.album a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    z-index: 999;
+}
+
+.album img{
+    width: 279px;
+    height: auto;
+    position: relative;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 230px){
+    .warning{
+        display: none;
+    }
+}
+
+@media (max-width:229px){
+    .warning{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: red;
+    }
+    .warning h1{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+
+    .contents{
+        display: none;
+    }
+}
+/*endofstylesheet*/
