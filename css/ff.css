@@ -9,6 +9,32 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     background-color: rgb(243 234 224);
 }
 
+
+@media (min-width: 230px){
+    .warning{
+        display: none;
+    }
+}
+
+@media (max-width:229px){
+    .warning{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: red;
+    }
+    .warning h1{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+
+    .contents{
+        display: none;
+    }
+}
+
 .wrapper{
     max-width: 1500px;
     margin-left: auto;
@@ -816,7 +842,7 @@ nav a:hover{
     font-size: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
     color: rgb(158, 122, 87);         
     font-weight: bold;
