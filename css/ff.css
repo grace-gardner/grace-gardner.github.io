@@ -267,7 +267,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(243 234 224);
-    background-image: url(../img/copyright2.png);
+    background-image: url(../img/border_background2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -300,10 +300,6 @@ nav a:hover{
         min-height: 745px;
     }
 }
-
-
-
-
 /*END OF PLACES*/
 
 
@@ -348,13 +344,39 @@ nav a:hover{
 
 
 .dining-slideshow{
-    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 745px;
     width: 100vw;
     background: url(../img/Amares4.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     animation: slide 10s infinite;
+}
+
+.dining-slideshow a{
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: 'Shadows Into Light';    
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 9px rgb(158, 122, 87);
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 50px;
+}
+
+.dining-slideshow a:hover{
+    background-color: bisque;
+    border: 1px solid white;
+    
 }
 
 @keyframes slide{
@@ -380,30 +402,8 @@ nav a:hover{
     }
 }
 
-.content{
-    position: absolute;
-    top: 30%;
-    color: white;
-    max-width: 100%;
-}
 
-.content h1{
-    font-family: 'Volkhov';
-    font-size: 4.5em;
-    letter-spacing: 1px;
-    color: white;
-    text-shadow: 0 0 20px black;
-    margin: 5%;
-}
 
-.content h1 span{
-    font-family: 'Shadows Into Light';
-    font-size: 0.5em;
-    margin-top: -4%;
-    margin-left: 5%;
-    color: rgb(158, 122, 87);
-    text-shadow: 0 0 5px rgb(240, 173, 49);
-}
 /*END OF DINING*/
 
 
@@ -448,12 +448,12 @@ nav a:hover{
 
 .sportsbar{
     min-width: 100%;
-    min-height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(243 234 224);
-    background-image: url(../img/copyright2.png);
+    background-image: url(../img/border_background2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -468,7 +468,7 @@ nav a:hover{
 @media (max-width: 653px){
     .sportsbar{
         width: 100%;
-        height: 25vh;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
