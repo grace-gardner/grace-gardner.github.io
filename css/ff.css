@@ -267,11 +267,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(243 234 224);
-    background-image: url(../img/border_background2.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*background-attachment: ;*/
+
 }
 
 .places img{
@@ -287,11 +283,6 @@ nav a:hover{
         justify-content: center;
         align-items: center;
         background-color: rgb(243 234 224);
-        background-image: url(../img/markstrandbg.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        /*background-attachment: ;*/
     }
 }
 
@@ -453,11 +444,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     background-color: rgb(243 234 224);
-    background-image: url(../img/border_background2.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*background-attachment: ;*/
+    
 }
 
 .sportsbar img{
@@ -473,11 +460,7 @@ nav a:hover{
         justify-content: center;
         align-items: center;
         background-color: rgb(243 234 224);
-        background-image: url(../img/markstrandbg.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        /*background-attachment: ;*/
+       
     }
 }
 
@@ -487,25 +470,10 @@ nav a:hover{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 .sports-bars{
     width: 100%;
     height: 100vh;
     background-color: rgb(243 234 224);
-    background-image: url(../img/maewestbg.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /*background-attachment: ;*/
     
 }
 
@@ -785,7 +753,7 @@ nav a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    border: 1px solid rgb(158, 114, 69);
+    /*border: 1px solid rgb(158, 114, 69);*/
     transition: width 2s, height 4s;
 }
 
@@ -812,7 +780,7 @@ nav a:hover{
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        border: 1px solid rgb(146, 112, 77);
+        /*border: 1px solid rgb(146, 112, 77);*/
         transition: width 2s, height 4s;
     }
 
