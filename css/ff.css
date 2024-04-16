@@ -154,17 +154,17 @@ nav a:hover{
 }/*END OF NAVIGATION BAR*/
 
 /*SLIDESHOW*/
-.slideshow{
+.header-slideshow{
     height: 100vh;
     width: 100vw;
     background: url(../img/bio1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: slide 20s infinite;
+    animation: headerslide 20s infinite;
 }
 
-@keyframes slide{
+@keyframes headerslide{
     25%{
         background: url(../img/corralejo.jpg);
         background-size: cover;
@@ -187,14 +187,14 @@ nav a:hover{
     }
 }
 
-.content{
+.header-content{
     position: absolute;
     top: 30%;
     color: white;
     max-width: 100%;
 }
 
-.content h1{
+.header-content h1{
     font-family: 'Volkhov';
     font-size: 4.5em;
     letter-spacing: 1px;
@@ -203,14 +203,19 @@ nav a:hover{
     margin: 5%;
 }
 
-.content h1 span{
+.header-content h1 span{
     font-family: 'Shadows Into Light';
     font-size: 0.5em;
     margin-top: -4%;
     margin-left: 5%;
     color: rgb(158, 122, 87);
     text-shadow: 0 0 5px rgb(240, 173, 49);
-}/*END OF SLIDESHOW*/
+}
+
+
+
+
+/*END OF SLIDESHOW*/
 
 
 /*STATEMENT*/
@@ -256,28 +261,49 @@ nav a:hover{
 
 /*PLACES*/
 .places{
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(243 234 224);
-    background-image: url(../img/border_background2.png);
+    background-image: url(../img/copyright2.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     /*background-attachment: ;*/
+}
+
+.places img{
+    min-width: 200px;
+    height: auto;
 }
 
 @media (max-width: 653px){
     .places{
         width: 100%;
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: rgb(243 234 224);
-        background-image: url(../img/border_background2.png);
+        background-image: url(../img/markstrandbg.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         /*background-attachment: ;*/
     }
 }
+
+@media (orientation:landscape){
+    .places{
+        min-height: 745px;
+    }
+}
+
+
+
+
 /*END OF PLACES*/
 
 
@@ -294,7 +320,7 @@ nav a:hover{
 }
 
 .dining-header div{
-    font-family: 'Shadows Into Light';
+    font-family: 'Shadows Into Light', 'Times New Roman', Times, serif, sans-serif;
     font-size: 25px;
     color: rgb(158, 122, 87);
     opacity: 0.8;
@@ -321,209 +347,63 @@ nav a:hover{
 }
 
 
-
-
-
-.dining{
-    width: 100%;
+.dining-slideshow{
     height: 100vh;
-    /*background-color: rgb(243 234 224);*/
-    /*background-image: url(../img/dining3.);*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    background-blend-mode: multiply;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 999;
-    /*border: 5px solid rgb(158, 122, 87);*/
-}
-
-@media (max-width:763px){/*653px*/
-    .dining{
-        width: 100%;
-        height: 50vh;
-        /*background-color: rgb(243 234 224);*/
-        /*background-image: url(../img/dining3.);*/
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-blend-mode: multiply;  
-        display: flex;
-        justify-content: center;
-        align-items: center;  
-        /*border: 1px solid rgb(158, 122, 87);*/
-    }
-}
-
-@media (min-width: 740px){ /*414px*/
-    .dining{
-        width: 100%;
-        height: 50vh;
-        /*background-color: rgb(243 234 224);*/
-        /*background-image: url(../img/dining3.);*/
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-blend-mode: multiply;  
-        display: block;
-        justify-content: center;
-        align-items: center;  
-    }
-
-
-    .dining div{
-        max-height: 824px;
-    }
-
-    .dining p{
-
-        font-size: 8px;
-        font-family: 'Volkhov';
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 25px;
-        text-align: center;
-        color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-        font-weight: bold;
-    }
-
-    .dining a{
-        text-decoration: none;
-        font-family: 'Shadows Into Light';    /*!!!!!!!!!!!!!!!!!!!!LINK-FONT-FAMILY THEME!!!!!!!!!!!!!!!!*/
-        font-size: 6px;
-        color: white;
-        border: 1px solid white;
-        border-radius: 5px;
-        width: 25px;
-        padding-left: 7px;
-        padding-right: 7px;
-        /*margin-top: 50px;*/
-        text-shadow: 0 0 1px rgb(240, 173, 49);
-        
-    }
-    
-}
-
-
-.dining p{
-    font-size: 14px;
-    font-family: 'Volkhov';
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    color: rgb(158, 122, 87);         /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!FONT-COLOUR THEME!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-    font-weight: bold;
-}
-
-
-.dining a{
-    text-decoration: none;
-    font-family: 'Shadows Into Light';    
-    font-size: 14px;
-    color: white;
-    border: 1px solid white;
-    box-shadow: 0 0 9px rgb(158, 122, 87);
-    border-radius: 5px;
-    width: 25px;
-    padding-left: 7px;
-    padding-right: 7px;
-    margin-top: 50px;
-    text-shadow: 0 0 5px rgb(240, 173, 49);
-}
-
-
-.dining a:hover{
-    color: rgb(158, 122, 87);
-    background-color: white;
-}
-
-#slider{
-    overflow: hidden;
-    min-height: 245px;
-    max-height: 545px;
+    width: 100vw;
     background: url(../img/Amares4.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    }
-    #slider figure{
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        animation: 10s slider ease-in infinite;
-        
-    }
-    #slider figure img{
-        float: left;
-        width: 20%;
-    }
+    animation: slide 10s infinite;
+}
 
-
-@keyframes slider{
-    0%{
-        left: 0;
-    }
-    20%{
-        left: 0;
-    }
+@keyframes slide{
     25%{
-        left: -100%;
+        background: url(../img/Nestors4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    45%{
-        left: -100%;
-    }
+
     50%{
-        left: -200%;
+        background: url(../img/Smileterraza4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    70%{
-        left: -200%;
-    }
+
     75%{
-        left: -300%;
+        background: url(../img/elpatio4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    85%{
-        left: -300%;
-    }
-    95%{
-        left: -400%;
-    }
-    100%{
-        left: -400%;
-    }
-} 
-
-
-@media (min-width: 660px){
-    #slider{
-        overflow: hidden;
-        max-height: 545px;
-        }
-
-        #slider figure img{
-            float: left;
-            width: 10%;
-        }
 }
 
-@media (max-width: 244px){
-    #slider{
-        overflow: hidden;
-        min-height: 545px;
-        
-        }
-
-        #slider figure img{
-            float: left;
-            width: 10%;
-        }
+.content{
+    position: absolute;
+    top: 30%;
+    color: white;
+    max-width: 100%;
 }
 
+.content h1{
+    font-family: 'Volkhov';
+    font-size: 4.5em;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 0 0 20px black;
+    margin: 5%;
+}
 
-
+.content h1 span{
+    font-family: 'Shadows Into Light';
+    font-size: 0.5em;
+    margin-top: -4%;
+    margin-left: 5%;
+    color: rgb(158, 122, 87);
+    text-shadow: 0 0 5px rgb(240, 173, 49);
+}
 /*END OF DINING*/
 
 
@@ -534,12 +414,12 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 15vh;
     margin-bottom: 25px;
 }
 
 .sportsbar-header div{
-    font-family: 'Shadows Into Light';
+    font-family: 'Shadows Into Light', 'Times New Roman', Times, serif, sans-serif;
     font-size: 25px;
     color: rgb(158, 122, 87);
     opacity: 0.8;
@@ -566,11 +446,62 @@ nav a:hover{
 }
 
 
+.sportsbar{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243 234 224);
+    background-image: url(../img/copyright2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: ;*/
+}
+
+.sportsbar img{
+    min-width: 200px;
+    height: auto;
+}
+
+@media (max-width: 653px){
+    .sportsbar{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(243 234 224);
+        background-image: url(../img/markstrandbg.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        /*background-attachment: ;*/
+    }
+}
+
+@media (orientation:landscape){
+    .sportsbar{
+        min-height: 745px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 .sports-bars{
     width: 100%;
     height: 100vh;
     background-color: rgb(243 234 224);
-    background-image: url(../img/border_background.png);
+    background-image: url(../img/maewestbg.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -647,7 +578,7 @@ nav a:hover{
     width: 100%;
     height: 100vh;
     background-color: rgb(243 234 224);
-    background-image: url();
+    background-image: url(../img/livemusicbg.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -666,7 +597,7 @@ nav a:hover{
 @media (orientation:landscape){
     .live-musiclist{
         width: 100%;
-        min-height: 995px;
+        min-height: 695px;
         background-color: rgb(243 234 224);
     }
 }
@@ -999,6 +930,7 @@ nav a:hover{
     margin-right: auto;
     padding-bottom: 35px;
     text-align: center;
+    
 }
 
 
