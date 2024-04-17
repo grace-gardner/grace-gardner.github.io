@@ -246,7 +246,7 @@ nav a:hover{
     font-family: 'Shadows Into Light';    /*!!!!!!!!!!!!!!!!!!!!LINK-FONT-FAMILY THEME!!!!!!!!!!!!!!!!*/
     font-size: 14px;
     color: rgb(68, 36, 3); /*rgb(240, 173, 49) rgb(158, 122, 87)*/
-    background-color: ;
+    background-color: none;
     border: 2px solid white;
     box-shadow: 0 0 2px rgb(158, 122, 87);
     border-radius: 5px;
