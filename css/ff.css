@@ -213,7 +213,7 @@ nav a:hover{
 
 .header-content h1 span{
     font-family: 'Shadows Into Light';
-    font-size: 0.5em;
+    font-size: 0.7em;
     margin-top: -4%;
     margin-left: 5%;
     color: rgb(158, 122, 87);
@@ -245,7 +245,9 @@ nav a:hover{
     text-decoration: none;
     font-family: 'Shadows Into Light';    /*!!!!!!!!!!!!!!!!!!!!LINK-FONT-FAMILY THEME!!!!!!!!!!!!!!!!*/
     font-size: 14px;
-    color: rgb(158, 122, 87);
+    color: rgb(240, 173, 49); /*rgb(240, 173, 49) rgb(158, 122, 87)*/
+    background-color: white;
+    opacity: 0.7;
     border: 2px solid white;
     box-shadow: 0 0 9px rgb(158, 122, 87);
     border-radius: 5px;
@@ -302,7 +304,7 @@ nav a:hover{
 /*PLACES*/
 .places{
     min-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -602,7 +604,7 @@ nav a:hover{
     
 }
 
-@media (max-width: 654px){
+@media (max-width: 653px){
     .live-musiclist{
         width: 100%;
         height: auto;
@@ -696,7 +698,7 @@ nav a:hover{
     opacity: 0.5;
 }
 
-@media (min-width: 825px){
+@media (min-width: 654px){
 
     .live-musiclist div{
         display: block;
