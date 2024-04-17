@@ -216,8 +216,8 @@ nav a:hover{
     font-size: 0.7em;
     margin-top: -4%;
     margin-left: 5%;
-    color: rgb(158, 122, 87);
-    text-shadow: 0 0 5px rgb(240, 173, 49);
+    color: rgb(68, 36, 3);
+    text-shadow: 0 0 0px rgb(240, 173, 49);
 }
 
 .header-content img{
@@ -235,7 +235,7 @@ nav a:hover{
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
+    /*text-align: center;*/
     color: white;         
     
 }
@@ -245,17 +245,16 @@ nav a:hover{
     text-decoration: none;
     font-family: 'Shadows Into Light';    /*!!!!!!!!!!!!!!!!!!!!LINK-FONT-FAMILY THEME!!!!!!!!!!!!!!!!*/
     font-size: 14px;
-    color: rgb(240, 173, 49); /*rgb(240, 173, 49) rgb(158, 122, 87)*/
-    background-color: white;
-    opacity: 0.7;
+    color: rgb(68, 36, 3); /*rgb(240, 173, 49) rgb(158, 122, 87)*/
+    background-color: ;
     border: 2px solid white;
-    box-shadow: 0 0 9px rgb(158, 122, 87);
+    box-shadow: 0 0 2px rgb(158, 122, 87);
     border-radius: 5px;
     width: 25px;
     padding-left: 7px;
     padding-right: 7px;
     margin-top: 50px;
-    text-shadow: 0 0 1px rgb(158, 122, 87); /*rgb(240, 173, 49)*/
+    text-shadow: 0 0 1px rgb(68, 36, 3);
 }
 /*END OF SLIDESHOW*/
 
