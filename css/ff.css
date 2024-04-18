@@ -754,9 +754,10 @@ nav a:hover{
 #section-3{
     width: 100%;
     max-height: 945px; /*745px*/
+    min-height: 200px;
     /*margin-top: 165px;
     margin-bottom: 165px;*/
-    background-image: url(../img/bio_background2.png);   
+    background-image: url(../img/bio_background.png);   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -799,7 +800,7 @@ nav a:hover{
     width: 150px;
     height: 150px;
     background: none;
-    background-image: url(../img/bio6.png);
+    background-image: url(../img/Copyofbio6.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -826,7 +827,7 @@ nav a:hover{
         width: 150px;
         height: 150px;
         background: none;
-        background-image: url(../img/bio6.png);
+        background-image: url(../img/Copyofbio6.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
