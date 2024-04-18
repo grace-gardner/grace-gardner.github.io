@@ -756,7 +756,10 @@ nav a:hover{
     max-height: 945px; /*745px*/
     /*margin-top: 165px;
     margin-bottom: 165px;*/
-    
+    background-image: url(../img/bio_background2.png);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section-3 h2{
@@ -773,7 +776,7 @@ nav a:hover{
 }
 
 #section-3 img{
-    width: 120px;
+    width: 120px;/*120*/
     height: 110px;
     margin-left: auto;
     margin-right: auto;
