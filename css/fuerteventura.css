@@ -27,6 +27,10 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
     overflow: hidden;  
 }
 
+h1{
+    text-align: center;
+    text-transform: lowercase;
+}
 
 h2{
     text-align: center;
@@ -57,12 +61,11 @@ header{
     text-align: center;
     position: absolute;
     z-index: 999;
-    width: 100%;  
-    top: 0%; 
+    width: 100%;   
 }
 
 
-header .logo h1{
+header .logo{
     color: rgb(158, 122, 87);
     opacity: 1;
     float: left;
@@ -70,13 +73,12 @@ header .logo h1{
     padding-right: 10px;
     font-size: 15px;
     margin-top: 9px;
-    font-family: 'Volkhov';
 }
 
 header .logo span{
     font-size: 21px;
+    font-family: 'Dancing Script';
     color: rgb(158, 122, 87);
-    font-family: 'Whisper', 'Times New Roman', Times, serif;
     
 }
 
@@ -99,7 +101,7 @@ header .logo span{
 .nav-toggle-label span::before,
 .nav-toggle-label span::after{
     display: block;
-    background: rgb(222, 178, 134);
+    background: rgb(158, 122, 87);
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -214,27 +216,19 @@ nav a:hover{
 /*END OF SLIDER*/
 
 /*EMPTY DIV 1*/
-#welcome-section{
+#empty-div .wrapper{
     width: 100%;
-    height: 515px;
+    height: 215px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.welcome-container{
-    max-width: 275px;
-    height: auto;
-    border: 1px solid bisque;
-}
-
-
-
-.welcome-container p{
+#empty-div p{
     text-align: center;
     margin-top: 30px;
     color: slategrey;
-    font-size: 15px;  
+    font-size: 18px;  
 }
 /*END OF EMPTY DIV 1*/
 

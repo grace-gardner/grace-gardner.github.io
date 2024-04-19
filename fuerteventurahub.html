@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FuerteventuraHub</title>
-    <link rel="icon" href="img/Fh5.png">
+    <title>Fuerteventura Hub</title>
+    <link rel="icon" href="img/bio6.png">
     <!--<link rel="stylesheet" href="bootstrap/bootstrap.css">-->
     <link rel="stylesheet" href="css/fuerteventura.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
@@ -20,264 +20,136 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Grey+Qo&family=Over+the+Rainbow&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="container">
+        <div class="wrapper">
+            <!--NAVIGATION-->
+            <div id="home">
+                <header>
+                    <h1 class="logo">Fuerteventura <span>Hub</span></h1>
+                    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <label for="nav-toggle" class="nav-toggle-label"> <!--labels looks for id not class so for"" must have an id in it so the <label> and <input> will work together-->
+                        <span></span>
+                    </label>
+                </header>
+            </div><!--NAVIGATION ENDS HERE-->
 
-    <div class="container"> <!--container starts here-->
-        <div class="wrapper"> <!--wrapper starts here-->
-            <!--NAVIGATION BAR-->
-            <header>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <label for="nav-toggle" class="nav-toggle-label"> <!--labels looks for id not class so for"" must have an id in it so the <label> and <input> will work together-->
-                    <span></span>
-                </label>
-            </header>
-            <!--END OF NAVIGATION BAR-->
-
-            <!--INTRO SECTION-->
-            <div id="home" class="home">
-                <h1 data-aos="slide-down"  data-aos-once="false" data-aos-duration="3000">Fuerteventura Filipina</h1>
-                <video autoplay muted>
-                    <source src="img/Ff9.mp4" type="video/mp4">
-                </video><br> 
-            </div><!--END OF INTRO SECTION-->
-
-            <div class="empty-div1"></div>
+            <div class="empty-div2"></div>  <!--SECTION BREAKER-->
             
-            <!--STATEMENT-->
-            <div class="statement">
-                <div class="statement-box">
-                    <p>Welcome to  <span style="font-weight: bold; font-family: 'Over the Rainbow';">Fuerteventura Filipina</span><br>
-                    Take a journey with me in this blog as I travel around the paradise Canarian island of Fuerteventura.<br>
-                    <a href="#content">Explore With Me</a><br>    
-                    </p>
-                </div>
-            </div><!--END OF STATEMENT SECTION-->
-
-            <div class="empty-div2"></div>
-
-
-            <!--MAIN CONTENT-->
-            <div class="content" id="content">
-                <div class="content-box">
-                    <h2 data-aos="slide-up"  data-aos-once="false" data-aos-duration="1000">Places to visit</h2><br>
-                    <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">Caleta De Fuste</p><br>
-                    <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="2000">Corralejo</p><br>
-                    <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="2500">Gran Tarajal</p><br>
-                    <p data-aos="slide-up"  data-aos-once="false" data-aos-duration="3000">and loads more</p><br>
-                </div>
-            </div>
-            <!--END OF MAIN CONTENT SECTION-->
-
-            <div class="empty-div2"></div>
-
-            <!--DINING SECTION
-            <div class="dining" id="dining">
-                <h3>Dining</h3>
-                <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
-                    <div class="gallery">
-                    <a target="_blank" href="https://www.facebook.com/smilefuerteventura/about">
-                        <img src="img/smile_terraza2.jpg" alt="smile terraza" width="600" height="400">
-                    </a>
-                    <div class="desc"><span>&#10145</span>Smile Terraza</div>
-                    </div>
-                </div>
-                <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
-                    <div class="gallery">
-                    <a target="_blank" href="https://www.facebook.com/elpatiocaletadefuste">
-                        <img src="img/el_patio.jpg" alt="el patio" width="600" height="400">
-                    </a>
-                    <div class="desc"><span>&#10145</span>Restaurante El Patio</div>
-                    </div>
-                </div>
-                <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
-                    <div class="gallery">
-                    <a target="_blank" href="https://www.facebook.com/Aamares.Restaurante">
-                        <img src="img/amares.jpg" alt="amares" width="600" height="400">
-                    </a>
-                    <div class="desc"><span>&#10145</span>Amares <span>&larr</span></div>
-                    </div>
-                </div>
-                <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
-                    <div class="gallery">
-                    <a target="_blank" href="https://www.facebook.com/Nestorsrestaurante">
-                        <img src="img/nestors.jpg" alt="nestors" width="600" height="400">
-                    </a>
-                    <div class="desc"><span>&#10145</span>Nestor's Restaurant & Steakhouse</div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>END OF DINING SECTION-->
-
-            <div class="empty-div2"></div>
-
-            <!--SPORTS BARS-->
-            <div class="sports-bars" id="sports-bars">
-                <h3>Who, What & Where <span style="color: grey; font-size: 22px;"><i class="fa-solid fa-map-location-dot"></i></span></h3>
-
-                <div class="container2">
-                    <img src="img/dining3.png" alt="" style="height: auto; width: 190px;">
-                     <!--image original size 120px-->
-                    <p><b>Dining</b><br>
-                        <a href="https://www.facebook.com/Nestorsrestaurante" target="_blank"><span>&#8900</span>Nestor's Restaurant & Steakhouse</a><br>
-                        <a href="https://www.facebook.com/Aamares.Restaurante" target="_blank"><span>&#8900</span>Amares</a><br>
-                        <a href="https://www.facebook.com/elpatiocaletadefuste" target="_blank"><span>&#8900</span>Restaurante El patio</a><br>
-                        <a href="https://www.facebook.com/smilefuerteventura" target="_blank"><span>&#8900</span>Smile Terraza</a><br>
-                        <a href=""></a><br>
-                        <a href=""></a><br>
-                        <a href=""></a><br>
-                    </p>
-                </div>
-
-                <div class="container2">
-                    <p><b>Sports Bars</b><br>
-                        <a href=""><span>&#10145</span>Benny's</a><br>
-                        <a href=""><span>&#10145</span>Stoners Irish Bar</a><br>
-                        <a href=""><span>&#10145</span>Smokehouse</a><br>
-                        <a href=""><span>&#10145</span>O'Connors</a><br>
-                         
-                    </p><br>
-                    <img src="img/collage1.jpg" alt="" style="height: auto; width: 190px;"><br>
-                </div>
-
-                <div class="container2">
-                    <img src="img/collage1.jpg" alt="" style="height: auto; width: 190px;"><br>
-                    <p><b>Live Music</b><br> 
-                        <a href=""><span>&#8900</span>TBA</a><br>
-                        <a href="">TBA</a><br>
-                        <a href="">TBA</a><br>
-                        <a href="">TBA</a><br>
-                    </p>
-                </div>
-
-                <div class="container2">
-                    <p><b>Health & Beauty</b><br> 
-                        <a href="">TBA</a><br>
-                        <a href="">TBA</a><br>
-                        <a href="">TBA</a><br>
-                        <a href="">TBA</a><br> 
-                    </p>
-                    <img src="img/collage1.jpg" alt="" style="height: auto; width: 190px;"><br>
-                </div>
+            <!--SLIDER-->
+            <div id="slider">
+                <figure>
+                    <img src="img/placestovisit.png" alt="image1">
+                    <!--<img src="img/Kirsten1.png" alt="image2">
+                    <img src="img/Gus1.png" alt="image3">
+                    <img src="img/sugarfree.png" alt="image4">
+                    <img src="img/grace.png" alt="image1">-->
+                </figure>
                 
-            </div><!--END OF SPORTS BAR SECTION-->
+            </div><!--SLIDER ENDS HERE-->
 
-            <div class="empty-div2"></div>
 
+            <!--EMPTY DIV-->
+            <div id="empty-div">
+                <div>
+                    <p>Ah! dolce notte! quante stelle!
+                        Non le vidi mai sì belle!
+                        Trema, brilla ogni favilla
+                        col baglior d'una pupilla.
+                        Oh! quanti occhi fisi, attenti,
+                        d'ogni parte a riguardar!
+                        pei firmamenti, via pei lidi,
+                        via pel mare...ride il ciel!
+                        Ah! dolce notte!
+                        Tutto estatico d'amor,
+                        ride il ciel! <br> Rerum ducimus mollitia consequuntur tempora dolores quidem molestiae! <br>
+                        <span style="font-size: 12px;">- Excerpt from Madamme Butterly</span>
+                    </p>
+                </div>
+            </div><!--EMPTY DIV ENDS HERE-->
+            <!--PROJECTS-->
+            <h2 id="projects">Projects</h2>
+            <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
+                <div class="gallery">
+                <a target="_blank" href="https://grace-gardner.github.io/beautyboxbykirsten">
+                    <img src="img/Kirsten1.png" alt="beautybox" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
+                <div class="gallery">
+                <a target="_blank" href="https://grace-gardner.github.io/gusabarquez">
+                    <img src="img/Gus1.png" alt="gusabarquez" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
+                <div class="gallery">
+                <a target="_blank" href="#">
+                    <img src="img/sugarfree.png" alt="sugarfree" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive" data-aos="slide-up"  data-aos-once="false" data-aos-duration="1500">
+                <div class="gallery">
+                <a target="_blank" href="https://grace-gardner.github.io/joflowers">
+                    <img src="img/jo_logo.png" alt="joowens" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="clearfix"></div><!--PROJECTS ENDS HERE-->
             <!--ABOUT-->
-            <div class="content2" id="about">
-                <div class="content-box2">
-                    <h2 data-aos="slide-up"  data-aos-once="false" data-aos-duration="1000">About Me</h2>  
-                    <br>   
-                    <p></p><br>
-                    <p></p><br>
-                    <p></p><br>
-                    <p></p><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laborum voluptatibus veniam maxime numquam natus quae <br>explicabo molestias inventore? Reprehenderit sed eos assumenda! <br> Laudantium fugit ratione iusto ut doloribus nihil dolorem.</p><br>
+            <h2 id="about">About</h2>
+            <div id="about">
+                <div class="about">
+                    <img src="img/grace1.jpg" alt="">
+                    <div>
+                        <p data-aos="slide-right"  data-aos-once="false" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                        <p data-aos="slide-left"  data-aos-once="false" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                        <p data-aos="slide-right"  data-aos-once="false" data-aos-duration="3000">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>  
                 </div>
+                <span>Image by <a href="https://pixabay.com/users/mih83-464187/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1824828">M. H.</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1824828">Pixabay</a></span>
+            </div><!--ABOUT SECTION ENDS HERE-->
+            <!--CONTACT-->
+            <h2 id="contact">Contact</h2>
+            <div class="contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <p>If you would like more information or if you are a freelancer/small business owner in Fuerteventura and would like a basic webpage to be featured on my website, please get in touch</p>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>   
+            </div><!--CONTACT SECTION ENDS HERE-->
+            <div class="arrow-up">
+                <a href="#top-of-page"><i class="fa-regular fa-circle-up"></i>Back to Top</a>
             </div>
-            
-           
-            <!--ABOUT SECTION ENDS HERE-->
-
-            <div class="empty-div2"></div>
-            <div class="empty-div2"><h3>Add Title Here</h3></div>
-            <div class="empty-div2"></div>
-
-            <div class="wrapper" id="slideshow">
-                <div class="slideshow"></div>
-                <div class="content">
-                    <h3>Fuerteventura Filipina <span>Travel Blog</span></h3>
-                </div>
-            </div>
-            
-            
+            <!--FOOTER-->
+            <div class="footer">
+                <hr>
+                <p>Grace-Gardner &copy;2024</p>
+            </div><!--FOOTER ENDS HERE-->
+        </div><!--WRAPPER ENDS HERE-->
+    </div><!--CONTAINER ENDS HERE-->
 
 
 
 
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div> <!--wrapper ends here-->
-    </div>  <!--container ends here-->
-    
-    
+   
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
