@@ -246,6 +246,14 @@ nav a:hover{
 
 
 /*PROJECTS SECTION*/
+
+.project-section{
+    background-image: url(../img/section_breaker.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 div.gallery {
     border: 1px solid #ccc;
   }
