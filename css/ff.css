@@ -157,30 +157,30 @@ nav a:hover{
 .header-slideshow{
     height: 100vh;
     width: 100vw;
-    background: url(../img/bio1.png);
+    background: url(../img/caleta.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: headerslide 20s infinite;
+    animation: headerslide 20s infinite ease-in forwards;
 }
 
 @keyframes headerslide{
     25%{
-        background: url(../img/corralejo.jpg);
+        background: url(../img/gran_tarajal.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
 
     50%{
-        background: url(../img/caleta.jpg);
+        background: url(../img/corralejo.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
 
     75%{
-        background: url(../img/grantarajal.jpg);
+        background: url(../img/sliderimage1.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

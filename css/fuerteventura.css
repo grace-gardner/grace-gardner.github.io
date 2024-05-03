@@ -281,6 +281,7 @@ nav a:hover{
 
 div.gallery {
     border: 1px solid #ccc;
+    background-color: rgb(158, 122, 87);
   }
   
   div.gallery:hover {
@@ -296,6 +297,7 @@ div.gallery {
   }
   
   div.desc {
+    color: white;
     padding: 15px;
     text-align: center;
     background-color: rgb(158, 122, 87);
@@ -320,7 +322,7 @@ div.gallery {
   
   @media only screen and (max-width: 700px) {
     .responsive {
-      width: 49.99999%;
+      width: 100%; /*49.99999%*/
       margin: 6px 0;
     }
   }
@@ -347,21 +349,22 @@ div.gallery {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    background-image: url(../img/newspaper.jpg);
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: rgb(241, 237, 231);
+    background-image: url(../img/bio_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     background-attachment: fixed;
     background-blend-mode: multiply;
-    border: 1px solid slategrey;
-    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 1);
+    border: 0px solid slategrey;
+    box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);
     
 
 }
 .about img{
     width: 150px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 55%;
     opacity: 0.7;
     text-align: center;
     padding-top: 10px; 
@@ -371,10 +374,11 @@ div.gallery {
 
 .about p{
     text-align: center;
-    font-size: 13px;
-    color: white;
+    font-size: 11.5px;
+    color: rgb(17, 19, 22);
     font-weight: bold;
-    padding-left: 13px;   
+    padding-left: 13px; 
+    padding-right: 13px;  
 }
 
 #about span{
@@ -386,6 +390,9 @@ div.gallery {
     text-decoration: none;
     font-size: 5px;
 }/*END OF ABOUT SECTION*/
+
+
+
 
 /*CONTACT SECTION*/
 .contact{
@@ -414,7 +421,7 @@ div.gallery {
     padding-top: 7px;
     font-size: 22px;
     color: slategrey;
-    border: 1px solid wheat;
+    
     
     
 }
@@ -439,6 +446,11 @@ div.gallery {
 .arrow-up i{
     padding-right: 5px;
 }
+
+
+
+
+
 
 
 
