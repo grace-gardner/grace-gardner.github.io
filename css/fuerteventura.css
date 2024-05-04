@@ -2,6 +2,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
@@ -21,7 +22,7 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 }
 
 .wrapper{
-    max-width: 1690px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;  
@@ -37,6 +38,15 @@ h2{
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 20px;
+    color: rgb(158, 122, 87);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
     color: rgb(158, 122, 87);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -253,11 +263,18 @@ nav a:hover{
 }
 .statement-container a{
     text-decoration: none;
-    color: rgb(203 170 133);
+    color: white;
     border: 1px solid rgb(158, 122, 87);
     padding-left: 5px;
     padding-right: 5px;
+    background-color: rgb(158, 122, 87);
+    position: relative;
 }
+
+.statement-container a:hover{
+    background-color: white;
+}
+
 
 
 
@@ -270,12 +287,6 @@ nav a:hover{
     background-repeat: no-repeat;
 }
 
-.project-section span{
-    font-size: 21px;
-    font-family: 'Dancing Script';
-    color: rgb(158, 122, 87);
-}
-
 .project-section p{
     font-family: 'Volkhov', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -285,11 +296,20 @@ nav a:hover{
 }
 
 .project-section a{
+    text-decoration: none;
     text-align: center;
     color: rgb(158, 122, 87);
 }
 
+.project-section a:hover{
+    background-color: white;
+}
 
+.project-section span{
+    font-size: 21px;
+    font-family: 'Dancing Script';
+    color: rgb(158, 122, 87);
+}
 
 div.gallery {
     border: 1px solid #ccc;
