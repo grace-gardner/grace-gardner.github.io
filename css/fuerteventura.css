@@ -255,9 +255,9 @@ nav a:hover{
     font-size: 15px;
     text-align: center;
     font-family: 'Volkhov', sans-serif;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
     color: rgb(22 12 1);
     opacity: 10;
     
@@ -407,6 +407,7 @@ div.gallery {
     background-attachment: fixed;
     background-blend-mode: multiply;
     border: 0px solid slategrey;
+    margin-top: 80px;
     /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);*/
     
 
