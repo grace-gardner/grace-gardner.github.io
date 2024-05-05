@@ -195,6 +195,7 @@ nav a:hover{
 /*SLIDER*/
 #slider{
     overflow: hidden; 
+    
 }
 
 
@@ -427,14 +428,31 @@ div.gallery {
 
 
 /*CONTACT SECTION*/
+.contact-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: rgb(241, 237, 231);
+}
+
+.contact-wrapper p{
+    text-align: center;
+    font-size: 11.5px;
+    font-family: 'Volkhov', Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .contact{
     display: flex;
     max-width: 200px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(241, 237, 231);
+    
 }
 
 .contact a{
