@@ -221,7 +221,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     position: relative; 
-    background-image: url(../img);
+    background-image: url(../img/);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -248,8 +248,11 @@ nav a:hover{
     border: 1px solid rgb(203 170 133);
     /*background-color: rgb(239 204 167);*/
     opacity: 0.9;
+    position: relative;
     
 }
+
+
 
 .statement-container p{
     font-size: 15px;
@@ -260,8 +263,15 @@ nav a:hover{
     padding-top: 50px;
     color: rgb(22 12 1);
     opacity: 10;
-    
+    position: relative;   
 }
+
+.statement-container img{
+    position: absolute;
+    z-index: -1;
+}
+
+
 .statement-container a{
     text-decoration: none;
     color: rgb(158, 122, 87);
@@ -276,7 +286,21 @@ nav a:hover{
 }
 
 
+.feature-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.feature-section img{
+    max-width: 378px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 /*PROJECTS SECTION*/
 
