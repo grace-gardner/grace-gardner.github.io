@@ -664,10 +664,11 @@ img {vertical-align: middle;}
 .footer p{
     text-align: center;
     color: slategrey;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 13px;
     padding-left: 12px;
     padding-right: 12px;
+    font-family: 'Volkhov', sans-serif;
 }/*END OF FOOTER SECTION*/
 
 
