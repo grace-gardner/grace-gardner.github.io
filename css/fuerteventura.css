@@ -355,7 +355,7 @@ div.gallery {
 
   div.gallery video{
     width: 100%;
-    height: auto;
+    height: 40vh;
   }
   
   div.desc {
