@@ -519,7 +519,13 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  animation: color 2s infinite;
 }
+
+@keyframes color{
+    from {background-color: rgba(255, 157, 0, 0.529);}
+    to {background-color: rgb(219, 206, 206);}
+  }
 
 /* Position the "next button" to the right */
 .next {
