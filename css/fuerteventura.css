@@ -352,6 +352,11 @@ div.gallery {
     width: 100%;
     height: auto;
   }
+
+  div.gallery video{
+    width: 100%;
+    height: auto;
+  }
   
   div.desc {
     color: white;
