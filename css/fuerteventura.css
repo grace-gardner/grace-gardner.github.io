@@ -68,10 +68,11 @@ h2{
 h3{
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     font-size: 22px;
     color: rgb(158, 122, 87);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 .empty-div1{
@@ -339,6 +340,10 @@ nav a:hover{
     background-color: white;
 }
 
+.statement-container p span{
+    font-size: 10px;
+
+}
 
 .feature-section{
     width: 100%;
@@ -417,13 +422,13 @@ div.gallery {
     padding: 15px;
     text-align: center;
     background-color: rgb(158, 122, 87);
-    font-size: 22px;
+    font-size: 15px;
   }
 
   div.desc a{
     text-decoration: none;
     color: white;
-    font-size: 11.5px;
+    font-size: 13px;
 
   }
   
@@ -437,9 +442,9 @@ div.gallery {
     width: 24.99999%; /*24.99999%*/
   }
   
-  @media only screen and (max-width: 950px) { /*700px*/
+  @media only screen and (max-width: 700px) { /*700px*/
     .responsive {
-      width: 100%; /*49.99999%*/
+      width: 49.99999%; /*49.99999%*/
       margin: 6px 0;
     }
     
