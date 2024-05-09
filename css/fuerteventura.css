@@ -362,6 +362,9 @@ nav a:hover{
 }
 
 /*PROJECTS SECTION*/
+#project-feature-posts{
+    background-color: rgb(44, 23, 2);
+}
 
 .project-section{
     background-image: url(../img/theme_colour_background.png);
@@ -397,35 +400,35 @@ nav a:hover{
 
 div.gallery {
     border: 1px solid #ccc;
-    background-color: rgb(158, 122, 87);
-  }
+    /*background-color: rgb(158, 122, 87);*/
+}
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
     background-color: darkgrey;
     opacity: 0.5;
     transform: translateY(-.5rem);
-  }
+}
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
-  }
+}
 
-  div.gallery video{
+div.gallery video{
     width: 100%;
     height: auto;
-  }
+}
   
-  div.desc {
+div.desc {
     color: white;
     padding: 15px;
     text-align: center;
-    background-color: rgb(158, 122, 87);
     font-size: 15px;
-  }
+    background-color: rgb(158, 122, 87);
+}
 
-  div.desc a{
+div.desc a{
     text-decoration: none;
     color: white;
     font-size: 13px;
@@ -461,7 +464,12 @@ div.gallery {
     content: "";
     display: table;
     clear: both;
-  } /*END OF PROJECTS SECTION*/
+  } 
+  
+  
+  
+  
+  /*END OF PROJECTS SECTION*/
 
 
 
@@ -537,6 +545,7 @@ div.gallery {
 .about-statement{
     width: 100%;
     height: auto;
+    margin-top: 150px;
 }
 
 .about-statement p{
@@ -651,6 +660,14 @@ img {vertical-align: middle;}
 }
 
 /*CONTACT SECTION*/
+
+#contact{
+    background-color: rgb(241, 237, 231);
+}
+#contact h3{
+    padding-top: 20px;
+}
+
 .contact-wrapper{
     width: 100%;
     height: auto;
