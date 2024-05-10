@@ -426,16 +426,16 @@ div.gallery video{
 }
   
 div.desc {
-    color: white;
+    color: rgb(158, 122, 87);
     padding: 15px;
     text-align: center;
     font-size: 15px;
-    background-color: rgb(158, 122, 87);
+    background-color: white;
 }
 
 div.desc a{
     text-decoration: none;
-    color: white;
+    color: rgb(158, 122, 87);
     font-size: 13px;
 
   }
