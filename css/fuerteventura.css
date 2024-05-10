@@ -474,14 +474,14 @@ div.desc a{
 
 
   /*ABOUT SECTION*/
-.about{
+.about-banner-top{
     width: 100%;
     height: 345px; /*545px*/
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    background-image: url(../img/bio_background3.png);
+    background-image: url(../img/bio_banner_top.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -491,21 +491,20 @@ div.desc a{
     /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);*/
 
 }
-.about2{
+.about-banner-bottom{
     width: 100%;
-    height: 245px; /*545px*/
+    height: 345px; /*545px*/
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    background-image: url(../img/bio_background.png);
+    background-image: url(../img/bio_banner_bottom.png);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-attachment: none;
     background-blend-mode: multiply;
     border: 0px solid slategrey;
-    margin-top: 80px;
     /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);*/
     
 
