@@ -378,7 +378,7 @@ nav a:hover{
     padding-top: 10px;
 }
 
-@media (max-width: 1023px){
+/*@media (max-width: 1023px){
     .project-section p{
         font-family: 'Volkhov', Verdana, Geneva, Tahoma, sans-serif;
         font-size: 10px;
@@ -387,7 +387,7 @@ nav a:hover{
         padding-right: 5px;
         padding-top: 10px;
     }
-}
+}*/
 
 .project-section a{
     text-decoration: none;
