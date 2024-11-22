@@ -30,6 +30,9 @@ html, body{ /*TARGETS EVERYTHING INSIDE THE BODY*/
 h1{
     text-align: center;
     text-transform: lowercase;
+    font-size: 22px;
+    color: cornsilk;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 1);
 }
 
 h2{
@@ -352,7 +355,7 @@ div.gallery {
     padding-top: 7px;
     font-size: 22px;
     color: slategrey;
-    border: 1px solid wheat;
+    border: 1px solid lightpink;
     
     
 }
@@ -361,6 +364,7 @@ div.gallery {
     padding-left: 15px;
     padding-right: 15px;
     font-weight: bold;
+    color: slategray;
 }
 
 .arrow-up{
@@ -369,10 +373,10 @@ div.gallery {
 
 .arrow-up a{
     text-decoration: none;
-    color: rgb(161, 161, 14);
-    opacity: 0.4;
+    color: lightpink; /*rgb(161 48 14 / 97%)*/
+    /*opacity: 0.4;*/
     font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
 }
 .arrow-up i{
     padding-right: 5px;
