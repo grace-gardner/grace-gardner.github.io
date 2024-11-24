@@ -391,7 +391,13 @@ div.gallery {
     text-align: center;
     color: slategrey;
     font-weight: bold;
-}/*END OF FOOTER SECTION*/
+}
+.footer a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+/*END OF FOOTER SECTION*/
 
 
 
